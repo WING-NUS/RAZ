@@ -1,0 +1,737 @@
+##################################   PARTICLES ###############
+CITE		CITE
+SELFCITE	SELFCITE
+
+no		NEGATION
+not		NEGATION
+nor 		NEGATION
+non		NEGATION
+neither		NEGATION
+none		NEGATION
+never		NEGATION
+
+aren't		NEGATION
+can't		NEGATION
+cannot		NEGATION
+hadn't		NEGATION
+hasn't		NEGATION
+haven't		NEGATION
+isn't		NEGATION
+didn't		NEGATION
+don't		NEGATION
+doesn't		NEGATION
+n't		NEGATION
+wasn't		NEGATION
+weren't		NEGATION
+
+#without	NEGATION
+#outwith	NEGATION
+#outside	NEGATION
+#beyond		NEGATION
+
+nothing		NEGATION
+nobody		NEGATION
+
+less		NEGATION
+least		NEGATION
+little		NEGATION
+scant		NEGATION
+scarcely	NEGATION
+rarely		NEGATION
+hardly		NEGATION
+few		NEGATION
+rare		NEGATION
+unlikely	NEGATION
+
+they		OTHERS_NOM
+he 		OTHERS_NOM
+she 		OTHERS_NOM
+theirs		OTHERS_NOM
+hers 		OTHERS_NOM
+his 		OTHERS_NOM
+their		OTHERS_POSS
+his		OTHERS_POSS
+her		OTHERS_POSS
+her		OTHERS_ACC
+him		OTHERS_ACC
+them		OTHERS_ACC
+themselves	OTHERS_RFX
+himself		OTHERS_RFX
+herself		OTHERS_RFX
+
+we		SELF_NOM
+i		SELF_NOM
+ours		SELF_NOM
+mine		SELF_NOM
+my		SELF_POSS
+our		SELF_POSS
+us 		SELF_ACC
+me		SELF_ACC
+ourselves	SELF_RFX
+myself		SELF_RFX
+
+this		REFERENTIAL
+that		REFERENTIAL
+those		REFERENTIAL
+these		REFERENTIAL
+
+
+
+\?		QUESTION
+how		QUESTION
+why		QUESTION
+whether		QUESTION
+wonder		QUESTION
+
+
+itself		RFX
+ourselves	RFX
+myself		RFX
+themselves	RFX
+himself		RFX
+herself		RFX
+
+in order to		GOAL_DIRECTED
+
+noted			GIVEN
+mentioned		GIVEN
+addressed		GIVEN
+illustrated             GIVEN
+described		GIVEN
+discussed		GIVEN
+given			GIVEN
+outlined		GIVEN
+presented		GIVEN
+proposed		GIVEN
+reported		GIVEN 
+shown			GIVEN
+taken			GIVEN
+
+#############################  NOUNS    ############################
+
+collegues		*PROFESSIONAL_NOUN
+community		 PROFESSIONAL_NOUN
+computer scientists     *PROFESSIONAL_NOUN
+computational linguists *PROFESSIONAL_NOUN
+discourse analysts	*PROFESSIONAL_NOUN
+experts			*PROFESSIONAL_NOUN
+investigators		*PROFESSIONAL_NOUN
+linguists		*PROFESSIONAL_NOUN
+logicians		*PROFESSIONAL_NOUN
+philosophers		*PROFESSIONAL_NOUN
+psycholinguists		*PROFESSIONAL_NOUN
+psychologists		*PROFESSIONAL_NOUN
+researchers		*PROFESSIONAL_NOUN
+scholars		*PROFESSIONAL_NOUN
+semanticists		*PROFESSIONAL_NOUN
+scientists		*PROFESSIONAL_NOUN
+
+computer science		*DISCIPLINE_NOUN
+computer linguistics		*DISCIPLINE_NOUN
+computational linguistics	*DISCIPLINE_NOUN
+discourse analysis		*DISCIPLINE_NOUN
+logics				*DISCIPLINE_NOUN
+linguistics			*DISCIPLINE_NOUN
+psychology			*DISCIPLINE_NOUN
+psycholinguistics		*DISCIPLINE_NOUN
+philosophy			*DISCIPLINE_NOUN
+semantics			*DISCIPLINE_NOUN
+several disciplines		*DISCIPLINE_NOUN
+various disciplines		*DISCIPLINE_NOUN
+
+paragraph		TXT_NOUN
+section			TXT_NOUN
+subsection		TXT_NOUN
+chapter			TXT_NOUN
+
+analogy			SIMILAR_NOUN
+similarity		SIMILAR_NOUN
+
+
+accuracy		COMPARISON_NOUN
+baseline		COMPARISON_NOUN
+comparison		COMPARISON_NOUN
+competition		COMPARISON_NOUN
+evaluation		COMPARISON_NOUN
+inferiority		COMPARISON_NOUN
+measure			COMPARISON_NOUN
+measurement		COMPARISON_NOUN
+performance		COMPARISON_NOUN
+precision		COMPARISON_NOUN
+optimum			COMPARISON_NOUN
+recall			COMPARISON_NOUN
+superiority		COMPARISON_NOUN
+
+
+contrast		CONTRAST_NOUN
+conflict		CONTRAST_NOUN
+clash			*CONTRAST_NOUN
+clashes 		*CONTRAST_NOUN
+difference		CONTRAST_NOUN
+point of departure	CONTRAST_NOUN
+
+
+aim			AIM_NOUN
+goal			AIM_NOUN
+intention		AIM_NOUN
+objective		AIM_NOUN
+purpose			*AIM_NOUN
+task			AIM_NOUN
+theme			AIM_NOUN
+topic			AIM_NOUN
+#point			AIM_NOUN
+
+assumption		ARGUMENTATION_NOUN
+hypothesis		*ARGUMENTATION_NOUN
+hypotheses		*ARGUMENTATION_NOUN
+claim			ARGUMENTATION_NOUN
+conclusion		ARGUMENTATION_NOUN
+opinion			ARGUMENTATION_NOUN
+view			ARGUMENTATION_NOUN
+
+
+Achilles heel		PROBLEM_NOUN
+caveat			PROBLEM_NOUN
+challenge		PROBLEM_NOUN
+complication		PROBLEM_NOUN
+#complexity		PROBLEM_NOUN
+contradiction		PROBLEM_NOUN
+#constraint		PROBLEM_NOUN
+#cost			PROBLEM_NOUN
+damage			PROBLEM_NOUN
+danger			PROBLEM_NOUN
+deadlock		PROBLEM_NOUN
+defect			PROBLEM_NOUN
+detriment		PROBLEM_NOUN
+difficulty		PROBLEM_NOUN
+dilemma			PROBLEM_NOUN
+disadvantage		PROBLEM_NOUN
+disregard		PROBLEM_NOUN
+doubt			PROBLEM_NOUN
+downside		PROBLEM_NOUN
+drawback		PROBLEM_NOUN
+error			PROBLEM_NOUN
+failure			PROBLEM_NOUN
+fault			PROBLEM_NOUN
+foil			PROBLEM_NOUN
+flaw			PROBLEM_NOUN
+handicap		PROBLEM_NOUN
+hindrance		PROBLEM_NOUN
+hurdle			PROBLEM_NOUN
+ill			PROBLEM_NOUN
+inflexibility		PROBLEM_NOUN
+#issue			PROBLEM_NOUN
+impediment		PROBLEM_NOUN
+imperfection		PROBLEM_NOUN
+intractability		PROBLEM_NOUN
+inefficiency		PROBLEM_NOUN
+inadequacy		PROBLEM_NOUN
+inability		PROBLEM_NOUN
+lapse			PROBLEM_NOUN
+#limit			PROBLEM_NOUN
+limitation		PROBLEM_NOUN
+malheur			PROBLEM_NOUN
+mishap			PROBLEM_NOUN
+mischance		PROBLEM_NOUN
+mistake			PROBLEM_NOUN
+obstacle		PROBLEM_NOUN
+oversight		PROBLEM_NOUN
+pitfall			PROBLEM_NOUN
+problem			PROBLEM_NOUN
+#restriction		PROBLEM_NOUN
+shortcoming		PROBLEM_NOUN
+threat			PROBLEM_NOUN
+trouble			PROBLEM_NOUN
+vulnerability		PROBLEM_NOUN
+
+absence			PROBLEM_NOUN
+dearth			PROBLEM_NOUN
+deprivation		PROBLEM_NOUN
+lack			PROBLEM_NOUN
+loss			PROBLEM_NOUN
+
+fraught			PROBLEM_NOUN
+proliferation		PROBLEM_NOUN
+spate			PROBLEM_NOUN
+
+question		QUESTION_NOUN
+conundrum		QUESTION_NOUN
+enigma			QUESTION_NOUN
+paradox			QUESTION_NOUN
+phenomena		QUESTION_NOUN
+phenomenon		QUESTION_NOUN
+puzzle			QUESTION_NOUN
+riddle			QUESTION_NOUN
+
+answer			SOLUTION_NOUN
+accomplishment		SOLUTION_NOUN
+achievement		SOLUTION_NOUN
+advantage		SOLUTION_NOUN
+benefit			SOLUTION_NOUN
+breakthrough		SOLUTION_NOUN
+contribution		SOLUTION_NOUN
+#efficiency		SOLUTION_NOUN
+explanation		SOLUTION_NOUN
+idea			SOLUTION_NOUN
+improvement		SOLUTION_NOUN
+innovation		SOLUTION_NOUN
+insight			SOLUTION_NOUN
+justification		SOLUTION_NOUN
+#possibility		SOLUTION_NOUN
+proposal		SOLUTION_NOUN
+proof			SOLUTION_NOUN
+remedy			SOLUTION_NOUN
+solution		SOLUTION_NOUN
+success			SOLUTION_NOUN
+triumph			SOLUTION_NOUN
+verification		SOLUTION_NOUN
+victory			SOLUTION_NOUN
+
+attention		INTEREST_NOUN
+quest			INTEREST_NOUN
+
+evidence		RESEARCH_NOUN
+experiment		RESEARCH_NOUN
+finding			RESEARCH_NOUN
+progress		RESEARCH_NOUN
+observation		RESEARCH_NOUN
+outcome			RESEARCH_NOUN
+result			RESEARCH_NOUN
+
+alternative		CHANGE_NOUN
+adaptation		CHANGE_NOUN
+extension		CHANGE_NOUN
+development		CHANGE_NOUN
+modification		CHANGE_NOUN
+refinement		CHANGE_NOUN
+version			CHANGE_NOUN
+variant			CHANGE_NOUN
+variation		CHANGE_NOUN
+
+article			PRESENTATION_NOUN
+draft			PRESENTATION_NOUN
+paper			PRESENTATION_NOUN
+project			PRESENTATION_NOUN
+report			PRESENTATION_NOUN
+study			PRESENTATION_NOUN
+
+necessity		NEED_NOUN
+motivation		NEED_NOUN
+
+
+account			WORK_NOUN
+algorithm		WORK_NOUN
+analysis		*WORK_NOUN
+analyses		*WORK_NOUN
+approach		*WORK_NOUN
+approaches		*WORK_NOUN
+application		WORK_NOUN
+architecture		WORK_NOUN
+characterization	WORK_NOUN
+characterisation	WORK_NOUN
+component		WORK_NOUN
+design			WORK_NOUN
+extension		WORK_NOUN
+formalism		WORK_NOUN
+formalization		WORK_NOUN
+formalisation		WORK_NOUN
+framework		WORK_NOUN
+implementation		WORK_NOUN
+investigation		WORK_NOUN
+machinery		WORK_NOUN
+method			WORK_NOUN
+methodology		WORK_NOUN
+model			WORK_NOUN
+module			WORK_NOUN
+moduls			*WORK_NOUN
+process			WORK_NOUN
+procedure		WORK_NOUN
+program			WORK_NOUN
+prototype		WORK_NOUN
+research		*WORK_NOUN
+researches		*WORK_NOUN
+strategy		WORK_NOUN
+system			WORK_NOUN
+technique		WORK_NOUN
+theory			WORK_NOUN
+tool			WORK_NOUN
+treatment		WORK_NOUN
+work			WORK_NOUN
+
+acceptance		TRADITION_NOUN
+community		TRADITION_NOUN
+convention		TRADITION_NOUN
+disciples		TRADITION_NOUN
+disciplines		TRADITION_NOUN
+folklore		TRADITION_NOUN
+literature		TRADITION_NOUN
+mainstream		TRADITION_NOUN
+school			TRADITION_NOUN
+tradition		TRADITION_NOUN
+textbook		TRADITION_NOUN
+wisdom                  TRADITION_NOUN
+
+#############################  ADJECTIVES ############################
+
+alternate		CHANGE_ADJ
+alternative		CHANGE_ADJ
+
+adequate		POS_ADJ
+advantageous		POS_ADJ
+appealing		POS_ADJ
+appropriate		POS_ADJ
+attractive		POS_ADJ
+automatic		POS_ADJ
+beneficial		POS_ADJ
+capable			POS_ADJ
+cheerful		POS_ADJ
+clean			POS_ADJ
+clear			*POS_ADJ
+compact			POS_ADJ
+compelling		POS_ADJ
+competitive		POS_ADJ
+#complete		*POS_ADJ
+comprehensive		POS_ADJ
+consistent		POS_ADJ
+convenient		POS_ADJ
+convincing		POS_ADJ
+constructive		POS_ADJ
+correct			POS_ADJ
+desirable		POS_ADJ
+distinctive		POS_ADJ
+efficient		POS_ADJ
+elegant			POS_ADJ
+encouraging		POS_ADJ
+exact			*POS_ADJ
+faultless		POS_ADJ
+favourable		POS_ADJ
+feasible		POS_ADJ
+flawless		POS_ADJ
+good			*POS_ADJ
+helpful			POS_ADJ
+impeccable		POS_ADJ
+innovative		POS_ADJ
+insightful		POS_ADJ
+intensive		POS_ADJ
+meaningful 		POS_ADJ
+neat			POS_ADJ
+perfect			POS_ADJ
+plausible		POS_ADJ
+positive		POS_ADJ
+polynomial		POS_ADJ
+powerful		POS_ADJ
+practical		POS_ADJ
+#preferred		POS_ADJ
+preferable		POS_ADJ
+precise			POS_ADJ
+principled		POS_ADJ
+promising		POS_ADJ
+pure			*POS_ADJ
+realistic		POS_ADJ
+reasonable		POS_ADJ
+reliable		POS_ADJ
+right			POS_ADJ
+robust			POS_ADJ
+satisfactory		POS_ADJ
+simple			*POS_ADJ
+sound			POS_ADJ
+successful		POS_ADJ
+sufficient		POS_ADJ
+systematic		POS_ADJ
+tractable		POS_ADJ
+usable			POS_ADJ
+useful			POS_ADJ
+valid			POS_ADJ
+unlimited		POS_ADJ
+well worked out		*POS_ADJ
+well			*POS_ADJ
+
+enough			*POS_ADJ
+
+
+absent			NEG_ADJ
+ad-hoc			*NEG_ADJ
+adhoc			*NEG_ADJ
+ad hoc			*NEG_ADJ
+annoying		NEG_ADJ
+ambiguous		NEG_ADJ
+arbitrary		NEG_ADJ
+awkward			NEG_ADJ
+bad			NEG_ADJ
+brittle			NEG_ADJ
+brute-force		*NEG_ADJ
+brute force		*NEG_ADJ
+careless		NEG_ADJ
+#complex		NEG_ADJ
+confounding		NEG_ADJ
+contradictory		NEG_ADJ
+defect			NEG_ADJ
+defunct			NEG_ADJ
+disturbing		NEG_ADJ
+elusive			NEG_ADJ
+erraneous		NEG_ADJ
+expensive		NEG_ADJ
+exponential		NEG_ADJ
+false			NEG_ADJ
+fallacious		NEG_ADJ
+frustrating		NEG_ADJ
+haphazard		NEG_ADJ
+ill-defined		NEG_ADJ
+imperfect		NEG_ADJ
+impossible		NEG_ADJ
+impractical		NEG_ADJ
+imprecise		NEG_ADJ
+inaccurate		NEG_ADJ
+inadequate		NEG_ADJ
+inappropriate		NEG_ADJ
+incomplete		NEG_ADJ
+incomprehensible	NEG_ADJ
+inconclusive		NEG_ADJ
+incorrect		NEG_ADJ
+inelegant		NEG_ADJ
+inefficient		NEG_ADJ
+inexact			NEG_ADJ
+infeasible		NEG_ADJ
+infelicitous		NEG_ADJ
+inflexible		NEG_ADJ
+implausible		NEG_ADJ
+inpracticable		NEG_ADJ
+improper		NEG_ADJ
+insufficient		NEG_ADJ
+intractable		NEG_ADJ
+invalid			NEG_ADJ
+irrelevant		NEG_ADJ
+labour-intensive	NEG_ADJ
+labor-intensive		NEG_ADJ
+labour intensive	NEG_ADJ
+labor intensive		NEG_ADJ
+limited-coverage	NEG_ADJ
+limited coverage	NEG_ADJ
+limited			NEG_ADJ
+limiting		NEG_ADJ
+meaningless		NEG_ADJ
+modest			NEG_ADJ
+misguided		NEG_ADJ
+misleading		NEG_ADJ
+non-existent		NEG_ADJ
+NP-hard			*NEG_ADJ
+NP-complete		*NEG_ADJ
+NP hard			*NEG_ADJ
+NP complete		*NEG_ADJ
+questionable		NEG_ADJ
+pathological		NEG_ADJ
+poor			NEG_ADJ
+prone			*NEG_ADJ
+protracted		NEG_ADJ
+restricted		NEG_ADJ
+scarce			NEG_ADJ
+simplistic		NEG_ADJ
+suspect			NEG_ADJ
+time-consuming		NEG_ADJ
+time consuming		NEG_ADJ
+toy			*NEG_ADJ
+unacceptable		NEG_ADJ
+unaccounted for		NEG_ADJ
+unaccounted-for		NEG_ADJ
+unaccounted		NEG_ADJ
+unattractive		NEG_ADJ
+unavailable		NEG_ADJ
+unavoidable		NEG_ADJ
+unclear			NEG_ADJ
+uncomfortable		NEG_ADJ
+unexplained		NEG_ADJ
+undecidable		NEG_ADJ
+undesirable		NEG_ADJ
+unfortunate		NEG_ADJ
+uninnovative		NEG_ADJ
+uninterpretable		NEG_ADJ
+unjustified		NEG_ADJ
+unmotivated		NEG_ADJ
+unnatural		NEG_ADJ
+unnecessary		NEG_ADJ
+unorthodox		NEG_ADJ
+unpleasant		NEG_ADJ
+unpractical		NEG_ADJ
+unprincipled		NEG_ADJ
+unreliable		NEG_ADJ
+unsatisfactory		NEG_ADJ
+unsound			NEG_ADJ
+unsuccessful		NEG_ADJ
+unsuited		NEG_ADJ
+unsystematic		NEG_ADJ
+untractable		NEG_ADJ
+unwanted		NEG_ADJ
+unwelcome		NEG_ADJ
+useless			NEG_ADJ
+vulnerable		NEG_ADJ
+weak			NEG_ADJ
+wrong			NEG_ADJ
+
+too			*NEG_ADJ
+overly			*NEG_ADJ
+only			*NEG_ADJ
+#just			*NEG_ADJ
+
+earlier			*BEFORE_ADJ
+past			*BEFORE_ADJ
+previous		*BEFORE_ADJ
+prior			*BEFORE_ADJ
+
+different		CONTRAST_ADJ
+distinguishing		CONTRAST_ADJ
+contrary		CONTRAST_ADJ
+competing		CONTRAST_ADJ
+rival			CONTRAST_ADJ
+
+better known		*TRADITION_ADJ
+better-known		*TRADITION_ADJ
+cited			*TRADITION_ADJ
+classic			TRADITION_ADJ
+common			TRADITION_ADJ
+conventional		TRADITION_ADJ
+current			TRADITION_ADJ
+customary		TRADITION_ADJ
+established		*TRADITION_ADJ
+existing		*TRADITION_ADJ
+extant			*TRADITION_ADJ
+available		*TRADITION_ADJ
+favourite		*TRADITION_ADJ
+fashionable		*TRADITION_ADJ
+general			TRADITION_ADJ
+obvious			*TRADITION_ADJ
+long-standing		*TRADITION_ADJ
+mainstream		*TRADITION_ADJ
+modern			*TRADITION_ADJ
+naive			*TRADITION_ADJ
+orthodox		*TRADITION_ADJ
+popular			TRADITION_ADJ
+prevailing		*TRADITION_ADJ
+prevalent		*TRADITION_ADJ
+published		*TRADITION_ADJ
+quoted			*TRADITION_ADJ
+received                *TRADITION_ADJ
+seminal			TRADITION_ADJ
+standard		TRADITION_ADJ
+textbook		TRADITION_ADJ
+traditional		TRADITION_ADJ
+trivial			*TRADITION_ADJ
+typical			TRADITION_ADJ
+well-established	*TRADITION_ADJ
+well-known		*TRADITION_ADJ
+widely-assumed		*TRADITION_ADJ
+unanimous		*TRADITION_ADJ
+usual			TRADITION_ADJ
+
+a number of		MANY
+a body of		MANY
+a substantial number of	MANY
+a substantial body of	MANY
+most			MANY
+many			MANY
+several			MANY
+various			MANY
+
+evaluative		COMPARISON_ADJ
+superior		COMPARISON_ADJ
+inferior		COMPARISON_ADJ
+optimal			COMPARISON_ADJ
+better			*COMPARISON_ADJ
+best			*COMPARISON_ADJ
+worse			*COMPARISON_ADJ
+worst			*COMPARISON_ADJ
+greater			*COMPARISON_ADJ
+larger			*COMPARISON_ADJ
+faster			*COMPARISON_ADJ
+weaker			*COMPARISON_ADJ
+stronger		*COMPARISON_ADJ
+
+demanding		PROBLEM_ADJ
+difficult		PROBLEM_ADJ
+hard			*PROBLEM_ADJ
+non-trivial		PROBLEM_ADJ
+nontrivial		PROBLEM_ADJ
+
+acute			MAGNIFIER_ADJ
+basic			MAGNIFIER_ADJ
+central			MAGNIFIER_ADJ
+considerable		MAGNIFIER_ADJ
+crucial			MAGNIFIER_ADJ
+enormeous		MAGNIFIER_ADJ
+essential		MAGNIFIER_ADJ
+eventual		MAGNIFIER_ADJ
+extensive 		MAGNIFIER_ADJ
+extreme			MAGNIFIER_ADJ
+fundamental		MAGNIFIER_ADJ
+great			*MAGNIFIER_ADJ
+growing			MAGNIFIER_ADJ
+important		MAGNIFIER_ADJ
+increasing		MAGNIFIER_ADJ
+key			*MAGNIFIER_ADJ
+largest			*MAGNIFIER_ADJ
+main			*MAGNIFIER_ADJ
+major			*MAGNIFIER_ADJ
+overall			*MAGNIFIER_ADJ
+primary			MAGNIFIER_ADJ
+principle		MAGNIFIER_ADJ
+serious			MAGNIFIER_ADJ
+significant		MAGNIFIER_ADJ
+strong			MAGNIFIER_ADJ
+striking		MAGNIFIER_ADJ
+surprising		MAGNIFIER_ADJ
+substantial		MAGNIFIER_ADJ
+ultimate		MAGNIFIER_ADJ
+utmost			*MAGNIFIER_ADJ
+undoubted		MAGNIFIER_ADJ
+unequivocal		MAGNIFIER_ADJ
+vast			*MAGNIFIER_ADJ
+
+
+empirical		RESEARCH_ADJ
+experimental		RESEARCH_ADJ
+exploratory		RESEARCH_ADJ
+ongoing			*RESEARCH_ADJ
+quantitative		RESEARCH_ADJ
+qualitative		RESEARCH_ADJ
+preliminary		RESEARCH_ADJ
+statistical 		RESEARCH_ADJ
+underway		*RESEARCH_ADJ
+
+
+unnoticed		AWARE_ADJ
+understood		AWARE_ADJ
+unexplored		AWARE_ADJ
+
+necessary		NEED_ADJ
+
+new			*NEW_ADJ
+novel			*NEW_ADJ
+state-of-the-art	*NEW_ADJ
+state of the art	*NEW_ADJ
+leading edge            *NEW_ADJ
+leading-edge		*NEW_ADJ
+enhanced		*NEW_ADJ
+
+further			*FUTURE_ADJ
+future			*FUTURE_ADJ
+
+main			MAIN
+key			MAIN
+basic			MAIN
+central			MAIN
+crucial			MAIN
+essential		MAIN
+eventual		MAIN
+fundamental		MAIN
+great			MAIN
+important		MAIN
+key			MAIN
+largest			MAIN
+main			MAIN
+major			MAIN
+overall			MAIN
+primary			MAIN
+principle		MAIN
+serious			MAIN
+substantial		MAIN
+ultimate		MAIN
+

@@ -1,0 +1,373 @@
+afford			AFFECT
+believe			AFFECT
+decide			AFFECT
+feel			AFFECT
+hope			AFFECT
+imagine			AFFECT
+regard			AFFECT
+trust			AFFECT
+think			AFFECT ** thought **
+
+
+agree			ARGU
+accept			ARGU
+advocate		ARGU
+argue			ARGU
+claim			ARGU
+conclude		ARGU
+comment			ARGU
+defend			ARGU
+embrace			ARGU
+hypothesize		ARGU ** hypothesise hypothesises hypothesised hypothesising **
+imply			ARGU
+insist			ARGU
+posit			ARGU
+postulate		ARGU
+reason			ARGU
+recommend		ARGU
+speculate		ARGU
+stipulate		ARGU
+suspect			ARGU
+
+be unaware		AWARE
+be familiar with	AWARE
+be aware		AWARE
+be not aware		AWARE
+know of			AWARE ** knew known **
+
+boost			BETTER_SOLVE
+enhance			BETTER_SOLVE
+defeat			BETTER_SOLVE
+improve			BETTER_SOLVE
+go beyond               BETTER_SOLVE ** goes went gone  **
+perform better		BETTER_SOLVE
+outperform		BETTER_SOLVE
+outweigh		BETTER_SOLVE
+surpass			BETTER_SOLVE
+
+adapt			CHANGE
+adjust			CHANGE
+augment			CHANGE
+combine			CHANGE
+change			CHANGE
+decrease		CHANGE
+elaborate on		CHANGE	
+expand			CHANGE
+extend			CHANGE
+derive			CHANGE
+incorporate		CHANGE
+increase		CHANGE
+manipulate		CHANGE
+modify			CHANGE
+optimize		CHANGE ** optimise optimised optimises optimising ** 
+refine			CHANGE
+render			CHANGE
+replace			CHANGE
+revise			CHANGE
+substitute		CHANGE
+tailor			CHANGE
+upgrade			CHANGE
+
+compare			COMPARISON
+compete			COMPARISON
+evaluate		COMPARISON
+test			COMPARISON
+
+adopt			CONTINUE
+agree with CITE		CONTINUE
+base			CONTINUE
+be based on		CONTINUE
+be derived from		CONTINUE
+be originated in	CONTINUE
+be inspired by		CONTINUE
+borrow			CONTINUE
+build on		CONTINUE
+follow CITE		CONTINUE
+originate from		CONTINUE
+originate in		CONTINUE
+side with		CONTINUE
+
+be different from	CONTRAST
+be distinct from	CONTRAST
+conflict		CONTRAST
+contrast		CONTRAST
+clash			CONTRAST
+differ from		CONTRAST
+distinguish @RFX        CONTRAST
+differentiate		CONTRAST
+disagree		CONTRAST
+disagreeing		CONTRAST
+dissent			CONTRAST
+oppose			CONTRAST
+
+plan on                 FUTURE_INTEREST	** planned planning **
+plan to			FUTURE_INTEREST	** planned planning **
+expect to		FUTURE_INTEREST	
+intend to		FUTURE_INTEREST	
+
+
+aim			INTEREST
+ask @SELF_RFX		INTEREST
+ask @OTHERS_RFX		INTEREST
+address                 INTEREST
+attempt			INTEREST
+be concerned		INTEREST
+be interested		INTEREST
+be motivated		INTEREST
+concern			INTEREST
+concern @SELF_ACC	INTEREST
+concern @OTHERS_ACC	INTEREST
+consider		INTEREST
+concentrate on		INTEREST
+explore			INTEREST
+focus			INTEREST **focusses focussed focussing **
+intend to		INTEREST
+like to			INTEREST
+look at how             INTEREST
+motivate @SELF_ACC	INTEREST
+motivate @OTHERS_ACC	INTEREST
+pursue			INTEREST	
+seek			INTEREST ** sought **
+study			INTEREST
+try			INTEREST
+target			INTEREST
+want			INTEREST
+wish			INTEREST
+wonder			INTEREST
+
+be dependent on		NEED
+be reliant on		NEED
+depend on		NEED
+#heighten		NEED
+lack			NEED
+need			NEED
+necessitate		NEED
+require			NEED
+rely on			NEED
+
+describe		PRESENT
+discuss			PRESENT
+#display		PRESENT
+give			PRESENT ** gave given **
+#illustrate		PRESENT
+introduce		PRESENT
+#mention		PRESENT
+note			PRESENT
+notice			PRESENT
+point out		PRESENT
+present			PRESENT
+propose			PRESENT
+put forward		PRESENT ** putting ** 
+recapitulate		PRESENT
+remark			PRESENT
+report			PRESENT
+say			PRESENT ** said **
+show			PRESENT ** shown **
+sketch			PRESENT
+state			PRESENT
+suggest			PRESENT
+talk about		PRESENT
+
+abound			PROBLEM
+aggravate		PROBLEM
+arise			PROBLEM ** arose arisen **
+be cursed		PROBLEM
+be incapable of		PROBLEM
+be forced to		PROBLEM
+be limited to		PROBLEM
+be problematic		PROBLEM
+be restricted to	PROBLEM
+be troubled		PROBLEM
+be unable to		PROBLEM
+contradict		PROBLEM
+damage			PROBLEM
+degrade			PROBLEM
+degenerate		PROBLEM
+fail			PROBLEM
+fall prey		PROBLEM ** fell fallen **
+fall short		PROBLEM ** fell fallen **
+force @SELF_ACC		PROBLEM
+force @OTHERS_ACC	PROBLEM
+hinder			PROBLEM
+impair			PROBLEM
+impede			PROBLEM
+inhibit			PROBLEM
+#lack			PROBLEM
+misclassify		PROBLEM
+misjudge		PROBLEM
+mistake			PROBLEM ** mistook mistaken **
+misuse			PROBLEM
+neglect			PROBLEM
+obscure			PROBLEM
+overestimate		PROBLEM ** over-estimate over-estimates over-estimated over-estimating **
+overfit  		PROBLEM ** overfitted overfitting over-fit over-fits over-fitted over-fitting **
+overgeneralize		PROBLEM ** overgeneralise overgeneralises overgeneralised overgeneralising over-generalize over-generalizes over-generalized over-generalizing over-generalise over-generalised over-generalises over-generalising **
+overgenerate		PROBLEM ** over-generate over-generates over-generated over-generating **
+overlook		PROBLEM
+pose			PROBLEM
+plague			PROBLEM
+preclude		PROBLEM
+prevent			PROBLEM
+#remain			PROBLEM
+resort to		PROBLEM
+restrain		PROBLEM
+run into		PROBLEM
+settle for		PROBLEM
+spoil			PROBLEM
+suffer from		PROBLEM
+threaten		PROBLEM
+thwart			PROBLEM
+underestimate		PROBLEM ** under-estimate under-estimates under-estimated under-estimating ** 
+undergenerate		PROBLEM ** under-generate under-generates under-generated under-generating ** 
+violate			PROBLEM
+waste			PROBLEM
+worsen			PROBLEM
+
+apply			RESEARCH
+analyze			RESEARCH ** analyse analyses analysed analysing **
+#assume			RESEARCH
+build			RESEARCH ** built **
+calculate		RESEARCH
+categorize		RESEARCH ** categorise categorises categorised categorising ** 
+characterize		RESEARCH ** characterise characterises characterised characterising **
+choose			RESEARCH ** chosen chose **
+check			RESEARCH
+classify		RESEARCH
+collect			RESEARCH
+compose			RESEARCH
+compute			RESEARCH
+conduct			RESEARCH
+confirm			RESEARCH
+construct		RESEARCH	
+count			RESEARCH
+define			RESEARCH
+delineate		RESEARCH
+detect			RESEARCH
+determine		RESEARCH
+equate			RESEARCH
+estimate		RESEARCH
+examine			RESEARCH
+expect			RESEARCH
+find			RESEARCH ** found **
+formalize		RESEARCH ** formalise formalising formalises formalised **
+formulate		RESEARCH
+gather			RESEARCH
+identify		RESEARCH
+implement		RESEARCH
+indicate		RESEARCH
+inspect			RESEARCH
+integrate		RESEARCH
+interpret		RESEARCH
+investigate		RESEARCH
+isolate			RESEARCH
+maximize		RESEARCH ** maximise maximises maximised maximising **
+measure			RESEARCH
+minimize		RESEARCH ** minimise minimises minimised minimising **
+observe			RESEARCH
+predict			RESEARCH
+realize			RESEARCH ** realise realises realised realising ** 
+reconfirm		RESEARCH
+simulate		RESEARCH
+select			RESEARCH
+specify			RESEARCH
+test			RESEARCH
+verify			RESEARCH
+
+bear comparison			 SIMILAR
+be analogous to			 SIMILAR
+be alike			 SIMILAR
+be related to			 SIMILAR
+be closely related to		 SIMILAR
+be reminiscent of		 SIMILAR
+be the same as			 SIMILAR
+be similar to			 SIMILAR
+be in a similar vein to		 SIMILAR
+have much in common with	 SIMILAR	
+have a lot in common with	 SIMILAR	
+pattern with			 SIMILAR
+resemble			 SIMILAR
+
+accomplish		SOLVE
+account	for		SOLVE
+achieve			SOLVE
+apply to		SOLVE
+alleviate		SOLVE
+allow for		SOLVE
+allow @SELF_ACC		SOLVE
+allow @OTHERS_ACC	SOLVE
+answer			SOLVE
+avoid			SOLVE
+benefit			SOLVE
+capture			SOLVE
+clarify			SOLVE
+circumvent		SOLVE
+contribute		SOLVE
+cope with		SOLVE
+cover			SOLVE
+cure			SOLVE
+deal with		SOLVE
+demonstrate		SOLVE
+develop			SOLVE ** developped developping **
+devise			SOLVE
+discover		SOLVE
+elucidate		SOLVE
+escape			SOLVE
+explain			SOLVE
+fix			SOLVE
+gain			SOLVE
+go a long way		SOLVE ** goes went gone ** 
+guarantee		SOLVE
+handle			SOLVE
+help			SOLVE
+implement		SOLVE
+justify			SOLVE
+lend itself		SOLVE
+make progress		SOLVE
+manage			SOLVE
+mend			SOLVE
+mitigate		SOLVE
+model			SOLVE ** modelled modelling **
+obtain			SOLVE
+offer			SOLVE
+overcome 	        SOLVE ** overcame **
+perform			SOLVE
+preserve		SOLVE
+prove			SOLVE ** proven **
+provide			SOLVE
+realize			SOLVE ** realise realises realised realising ** 
+rectify			SOLVE
+refrain from		SOLVE
+remedy			SOLVE
+resolve			SOLVE
+reveal			SOLVE
+scale up		SOLVE
+sidestep		SOLVE
+solve			SOLVE
+succeed			SOLVE
+tackle			SOLVE
+take care of		SOLVE ** taken took **
+take into account	SOLVE ** taken took **
+treat			SOLVE
+warrant			SOLVE
+work well		SOLVE
+yield			SOLVE             
+
+
+begin by		TXTSTRUCT ** began beginning begun ** 
+illustrate		TXTSTRUCT
+conclude by		TXTSTRUCT
+organize		TXTSTRUCT ** organise organises organised organising **
+outline			TXTSTRUCT
+return to		TXTSTRUCT
+review			TXTSTRUCT
+start by		TXTSTRUCT
+structure		TXTSTRUCT
+summarize		TXTSTRUCT ** summarise summarises summarised summarising **
+turn to			TXTSTRUCT
+
+apply			USE
+employ			USE
+use			USE
+make use		USE ** made **
+utilize			USE  ** utilise utilising utilised utilises **
+

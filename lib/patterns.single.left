@@ -1,0 +1,50 @@
+SELFCITE						US_PREV
+SELFCITE also						US_PREV
+CITE							THEM
+CITE 's NN						THEM
+according to CITE				THEM
+along the lines of CITE			THEM
+like CITE					THEM
+CITE style					THEM
+a la CITE					THEM
+CITE - style					THEM
+elsewhere SELFCITE				US_PREV
+elswhere SELFCITE				US_PREV
+following CITE					CONTINUE
+adopt CITE 's					CONTINUE
+use CITE 's					CONTINUE
+as in CITE					SIMILARITY
+as did CITE					SIMILARITY
+like in CITE					SIMILARITY
+like CITE 's					SIMILARITY
+similarity with CITE				SIMILARITY
+in analogy to CITE				SIMILARITY
+similar to CITE				SIMILARITY
+similar to CITE				SIMILARITY
+a similar NN to CITE				SIMILARITY
+analogous to CITE				SIMILARITY
+analogous to CITE				SIMILARITY
+the same NN as CITE				SIMILARITY
+the same as CITE				SIMILARITY
+against CITE	 				COMPARISON
+than CITE					COMPARISON
+advantage over CITE				COMPARISON
+advantage to CITE				COMPARISON
+advantages over CITE				COMPARISON
+advantages to CITE				COMPARISON
+benefit over CITE				COMPARISON
+difference to CITE				COMPARISON
+differences to CITE				COMPARISON
+difference between CITE			COMPARISON
+differences between CITE			COMPARISON
+contrast with CITE				COMPARISON
+unlike CITE					COMPARISON
+in contrast to CITE            		COMPARISON
+as opposed to CITE          			COMPARISON
+contrary to CITE          			COMPARISON
+whereas CITE           			COMPARISON
+compared to CITE          			COMPARISON
+in comparison to CITE          		COMPARISON
+while CITE          				COMPARISON
+( TXT_NOUN CREF )				NO_TXTSTRUCT
+

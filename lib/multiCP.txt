@@ -1,0 +1,157 @@
+a	a body of	MANY
+a	achilles heel	PROBLEM
+a	ad hoc	NEG
+a	agree with <CITE>	CONTINUE
+a	allow for	SOLVE
+a	allow <OTHERS_ACC>	SOLVE
+a	allow <SELF_ACC>	SOLVE
+a	along the same lines	SIMILARITY
+a	analogous to that described here	SIMILARITY
+a	a number of	MANY
+a	apply to	SOLVE
+a	areas for improvement	FUTURE
+a	as a starting point	CONTINUE
+a	ask <OTHERS_RFX>	INTEREST
+a	ask <SELF_RFX>	INTEREST
+a	as starting point	CONTINUE
+a	a substantial body of	MANY
+a	a substantial number of	MANY
+a	avenue for improvement	FUTURE
+a	avenues for improvement	FUTURE
+a	be alike	SIMILAR
+a	be analogous to	SIMILAR
+a	bear comparison	SIMILAR
+a	be aware	AWARE
+a	be based on	CONTINUE
+a	be closely related to	SIMILAR
+a	be concerned	INTEREST
+a	be cursed	PROBLEM
+a	be dependent on	NEED
+a	be derived from	CONTINUE
+a	be different from	CONTRAST
+a	be distinct from	CONTRAST
+a	be familiar with	AWARE
+a	be forced to	PROBLEM
+a	begin by	TXT_STRUCT
+a	be in a similar vein to	SIMILAR
+a	be incapable of	PROBLEM
+a	be inspired by	CONTINUE
+a	be interested	INTEREST
+a	be limited to	PROBLEM
+a	be motivated	INTEREST
+a	be not aware	AWARE
+a	be originated in	CONTINUE
+a	be problematic	PROBLEM
+a	be related to	SIMILAR
+a	be reliant on	NEED
+a	be reminiscent of	SIMILAR
+a	be restricted to	PROBLEM
+a	be similar to	SIMILAR
+a	be the same as	SIMILAR
+a	be troubled	PROBLEM
+a	better known	TRADITIONAL
+a	be unable to	PROBLEM
+a	be unaware	AWARE
+a	beyond the scope	FUTURE
+a	briefly describe	TXTSTRUCT
+a	briefly discuss	TXTSTRUCT
+a	briefly introduce	TXTSTRUCT
+a	briefly present	TXTSTRUCT
+a	brute force	NEG
+a	build on	CONTINUE
+a	computational linguistics	DISCIPLINE
+a	computational linguists	PROFESSIONAL
+a	computer linguistics	DISCIPLINE
+a	computer science	DISCIPLINE
+a	computer scientists	PROFESSIONAL
+a	concentrate on	INTEREST
+a	concern <OTHERS_ACC>	INTEREST
+a	concern <SELF_ACC>	INTEREST
+a	conclude by	TXT_STRUCT
+a	cope with	SOLVE
+a	deal with	SOLVE
+a	depend on	NEED
+a	differ from	CONTRAST
+a	discourse analysis	DISCIPLINE
+a	discourse analysts	PROFESSIONAL
+a	distinguish <RFX>	CONTRAST
+a	elaborate on	CHANGE
+a	expect to	FUTURE_INTEREST
+a	fall prey	PROBLEM
+a	fall short	PROBLEM
+a	follow <CITE>	CONTINUE
+a	force <OTHERS_ACC>	PROBLEM
+a	force <SELF_ACC>	PROBLEM
+a	go a long way	SOLVE
+a	go beyond	BETTER_SOLVE
+a	have a lot in common with	SIMILAR
+a	have much in common with	SIMILAR
+a	in a similar vein	SIMILARITY
+a	in order to	GOAL_DIRECTED
+a	intend to	FUTURE_INTEREST
+a	intend to	INTEREST
+a	in the future	FUTURE
+a	in the near future	FUTURE
+a	know of	AWARE
+a	labor intensive	NEG
+a	labour intensive	NEG
+a	leading edge	NEW
+a	lend itself	SOLVE
+a	like to	INTEREST
+a	limited coverage	NEG
+a	look at how	INTEREST
+a	make progress	SOLVE
+a	make use	USE
+a	motivate <OTHERS_ACC>	INTEREST
+a	motivate <SELF_ACC>	INTEREST
+a	needs further	FUTURE
+a	NP complete	NEG
+a	NP hard	NEG
+a	one of the authors	US
+a	one of us	US
+a	originate from	CONTINUE
+a	originate in	CONTINUE
+a	pattern with	fect
+a	perform better	BETTER_SOLVE
+a	plan on	FUTURE_INTEREST
+a	plan to	FUTURE_INTEREST
+a	point of departure	
+a	point out	PRESENT
+a	presented elsewhere	US_PREV
+a	presented elswhere	US_PREV
+a	promising avenue	FUTURE
+a	promising avenues	FUTURE
+a	put forward	PRESENT
+a	refrain from	SOLVE
+a	rely on	NEED
+a	requires further	FUTURE
+a	resort to	PROBLEM
+a	return to	TXT_STRUCT
+a	run into	PROBLEM
+a	scale up	SOLVE
+a	settle for	PROBLEM
+a	several disciplines	DISCIPLINE
+a	side with	CONTINUE
+a	similar to that described here	SIMILARITY
+a	similar to that of	SIMILARITY
+a	similar to those of	SIMILARITY
+a	start by	TXT_STRUCT
+a	state of the art	NEW
+a	suffer from	PROBLEM
+a	take care of	SOLVE
+a	take into account	SOLVE
+a	talk about	PRESENT
+a	the author	REF
+a	the authors	REF
+a	the first author	US
+a	the problem of how to	METHOD
+a	the problem of <RB> <VV_ING>	METHOD
+a	the problem of <VV_ING>	METHOD
+a	the second author	US
+a	the third author	US
+a	time consuming	NEG
+a	turn to	TXT_STRUCT
+a	unaccounted for	NEG
+a	various disciplines	DISCIPLINE
+a	well worked out	POS
+a	work well	SOLVE

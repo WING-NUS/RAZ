@@ -1,0 +1,648 @@
+##########################    AGENTS  #############################
+
+@SELF_NOM						US_A
+@SELF_NOM ^also					        US_A
+@SELF_NOM ^now					        US_A
+@SELF_NOM ^here					        US_A
+@SELF_POSS JJ ^@WORK_NOUN				US_A
+@SELF_POSS JJ ^@PRESENTATION_NOUN			US_A
+@SELF_POSS JJ ^@ARGUMENTATION_NOUN			US_A
+@SELF_POSS JJ ^@SOLUTION_NOUN				US_A
+@SELF_POSS JJ ^@RESULT_NOUN				US_A
+@SELF_POSS ^@WORK_NOUN					US_A
+@SELF_POSS ^@PRESENTATION_NOUN				US_A
+@SELF_POSS ^@ARGUMENTATION_NOUN				US_A
+@SELF_POSS ^@SOLUTION_NOUN				US_A
+@SELF_POSS ^@RESULT_NOUN				US_A
+^@WORK_NOUN @GIVEN here					US_A
+^@WORK_NOUN @GIVEN below				US_A
+^@WORK_NOUN @GIVEN in this @PRESENTATION_NOUN		US_A
+^@WORK_NOUN @GIVEN in @SELF_POSS @PRESENTATION_NOUN	US_A
+the ^@SOLUTION_NOUN @GIVEN here				US_A
+the ^@SOLUTION_NOUN @GIVEN in this @PRESENTATION_NOUN	US_A
+the first ^author					US_A
+the second ^author					US_A
+the third ^author					US_A
+one of the ^authors					US_A
+one of ^us						US_A
+
+#this JJ ^@PRESENTATION_NOUN				REF_US_A
+this ^@PRESENTATION_NOUN				REF_US_A
+this ^@PRESENTATION_NOUN also				REF_US_A
+the present ^@PRESENTATION_NOUN				REF_US_A
+the current ^@PRESENTATION_NOUN				REF_US_A
+the present JJ ^@PRESENTATION_NOUN			REF_US_A
+the current JJ ^@PRESENTATION_NOUN			REF_US_A
+the current JJ ^@WORK_NOUN				REF_US_A
+the current ^@WORK_NOUN					REF_US_A
+the present JJ ^@WORK_NOUN				REF_US_A
+the present ^@WORK_NOUN					REF_US_A
+the ^@WORK_NOUN @GIVEN					REF_US_A
+
+@SELF_POSS ^@AIM_NOUN					OUR_AIM_A
+the point of this ^@PRESENTATION_NOUN			OUR_AIM_A
+the ^@AIM_NOUN of this @PRESENTATION_NOUN		OUR_AIM_A
+the ^@AIM_NOUN of the @GIVEN @WORK_NOUN			OUR_AIM_A
+the ^@AIM_NOUN of @SELF_POSS @WORK_NOUN			OUR_AIM_A
+the ^@AIM_NOUN of @SELF_POSS @PRESENTATION_NOUN		OUR_AIM_A
+the most important feature of ^@SELF_POSS @WORK_NOUN	OUR_AIM_A
+contribution of this ^@PRESENTATION_NOUN		OUR_AIM_A
+contribution of the @GIVEN ^@WORK_NOUN			OUR_AIM_A
+contribution of ^@SELF_POSS @WORK_NOUN			OUR_AIM_A
+the question @GIVEN in this ^PRESENTATION_NOUN		OUR_AIM_A
+the question @GIVEN ^here				OUR_AIM_A
+@SELF_POSS @MAIN ^@AIM_NOUN				OUR_AIM_A
+@SELF_POSS ^@AIM_NOUN in this @PRESENTATION_NOUN	OUR_AIM_A
+@SELF_POSS ^@AIM_NOUN here				OUR_AIM_A
+the JJ point of this ^@PRESENTATION_NOUN		OUR_AIM_A
+the JJ purpose of this ^@PRESENTATION_NOUN		OUR_AIM_A
+the JJ ^@AIM_NOUN of this @PRESENTATION_NOUN		OUR_AIM_A
+the JJ ^@AIM_NOUN of the @GIVEN @WORK_NOUN		OUR_AIM_A
+the JJ ^@AIM_NOUN of @SELF_POSS @WORK_NOUN		OUR_AIM_A
+the JJ ^@AIM_NOUN of @SELF_POSS @PRESENTATION_NOUN	OUR_AIM_A
+the JJ question @GIVEN in this ^PRESENTATION_NOUN	OUR_AIM_A
+the JJ question @GIVEN ^here				OUR_AIM_A
+
+its ^@AIM_NOUN						AIM_REF_A
+its JJ ^@AIM_NOUN					AIM_REF_A
+@REFERENTIAL JJ ^@AIM_NOUN				AIM_REF_A
+contribution of this ^@WORK_NOUN			AIM_REF_A
+the most important feature of this ^@WORK_NOUN		AIM_REF_A
+feature of this ^@WORK_NOUN				AIM_REF_A
+the ^@AIM_NOUN						AIM_REF_A
+the JJ ^@AIM_NOUN					AIM_REF_A
+
+SELFCITE						US_PREV_A
+SELFCITE ^also						US_PREV_A
+this @BEFORE_ADJ ^@PRESENTATION_NOUN			US_PREV_A
+@SELF_POSS @BEFORE_ADJ ^@PRESENTATION_NOUN		US_PREV_A
+@SELF_POSS @BEFORE_ADJ ^@WORK_NOUN			US_PREV_A
+in ^SELFCITE , @SELF_NOM				US_PREV_A
+in ^SELFCITE @SELF_NOM					US_PREV_A
+the ^@WORK_NOUN	@GIVEN in SELFCITE			US_PREV_A
+
+@REFERENTIAL JJ ^@WORK_NOUN				REF_A
+@REFERENTIAL ^@WORK_NOUN				REF_A
+this sort of ^@WORK_NOUN				REF_A
+this kind of ^@WORK_NOUN				REF_A
+this type of ^@WORK_NOUN				REF_A
+the ^@WORK_NOUN						REF_A
+the ^@PRESENTATION_NOUN					REF_A
+the ^author						REF_A
+the ^authors						REF_A
+
+@OTHERS_NOM						THEM_PRONOUN_A
+
+CITE							THEM_A
+CITE ^'s NN						THEM_A
+CITE 's ^@PRESENTATION_NOUN				THEM_A
+CITE 's ^@WORK_NOUN					THEM_A
+CITE 's ^@ARGUMENTATION_NOUN				THEM_A
+CITE 's JJ ^@PRESENTATION_NOUN				THEM_A
+CITE 's JJ ^@WORK_NOUN					THEM_A
+CITE 's JJ ^@ARGUMENTATION_NOUN				THEM_A
+the CITE ^@WORK_NOUN					THEM_A
+the ^@WORK_NOUN	@GIVEN in CITE				THEM_A
+the ^@WORK_NOUN	of CITE					THEM_A
+@OTHERS_POSS ^@PRESENTATION_NOUN			THEM_A
+@OTHERS_POSS ^@WORK_NOUN				THEM_A
+@OTHERS_POSS ^@RESULT_NOUN				THEM_A
+@OTHERS_POSS ^@ARGUMENTATION_NOUN			THEM_A
+@OTHERS_POSS ^@SOLUTION_NOUN				THEM_A
+@OTHERS_POSS JJ ^@PRESENTATION_NOUN			THEM_A
+@OTHERS_POSS JJ ^@WORK_NOUN				THEM_A
+@OTHERS_POSS JJ ^@RESULT_NOUN				THEM_A
+@OTHERS_POSS JJ ^@ARGUMENTATION_NOUN			THEM_A
+@OTHERS_POSS JJ ^@SOLUTION_NOUN				THEM_A
+
+none of these ^@WORK_NOUN				GAP_A
+none of those ^@WORK_NOUN				GAP_A
+no ^@WORK_NOUN						GAP_A
+no JJ ^@WORK_NOUN					GAP_A
+none of these ^@PRESENTATION_NOUN			GAP_A
+none of those ^@PRESENTATION_NOUN			GAP_A
+no ^@PRESENTATION_NOUN					GAP_A
+no JJ ^@PRESENTATION_NOUN				GAP_A
+
+@TRADITION_ADJ JJ ^@WORK_NOUN				GENERAL_A
+@TRADITION_ADJ used ^@WORK_NOUN				GENERAL_A
+@TRADITION_ADJ ^@WORK_NOUN				GENERAL_A
+@MANY JJ ^@WORK_NOUN					GENERAL_A
+@MANY ^@WORK_NOUN					GENERAL_A
+@BEFORE_ADJ JJ ^@WORK_NOUN				GENERAL_A
+@BEFORE_ADJ ^@WORK_NOUN					GENERAL_A
+@BEFORE_ADJ JJ ^@PRESENTATION_NOUN			GENERAL_A
+@BEFORE_ADJ ^@PRESENTATION_NOUN				GENERAL_A
+other JJ ^@WORK_NOUN					GENERAL_A
+other ^@WORK_NOUN					GENERAL_A
+such ^@WORK_NOUN					GENERAL_A
+these JJ ^@PRESENTATION_NOUN				GENERAL_A
+these ^@PRESENTATION_NOUN				GENERAL_A
+those JJ ^@PRESENTATION_NOUN				GENERAL_A
+those ^@PRESENTATION_NOUN				GENERAL_A
+@REFERENTIAL ^authors					GENERAL_A
+@MANY ^authors						GENERAL_A
+^researchers in @DISCIPLINE				GENERAL_A
+@PROFESSIONAL_NOUN					GENERAL_A
+
+@REFERENTIAL JJ ^@PROBLEM_NOUN				PROBLEM_A
+@REFERENTIAL ^@PROBLEM_NOUN				PROBLEM_A
+the ^@PROBLEM_NOUN					PROBLEM_A
+
+@REFERENTIAL JJ ^@SOLUTION_NOUN				SOLUTION_A
+@REFERENTIAL ^@SOLUTION_NOUN				SOLUTION_A
+the ^@SOLUTION_NOUN					SOLUTION_A
+the JJ ^@SOLUTION_NOUN					SOLUTION_A
+
+^@TXT_NOUN CREF						TXTSTRUCT_A
+^@TXT_NOUN CREF	and CREF				TXTSTRUCT_A
+this ^@TXT_NOUN						TXTSTRUCT_A
+next ^@TXT_NOUN						TXTSTRUCT_A
+next CD ^@TXT_NOUN					TXTSTRUCT_A
+concluding ^@TXT_NOUN					TXTSTRUCT_A
+@BEFORE_ADJ ^@TXT_NOUN					TXTSTRUCT_A
+^@TXT_NOUN above					TXTSTRUCT_A
+^@TXT_NOUN below					TXTSTRUCT_A
+following ^@TXT_NOUN					TXTSTRUCT_A
+remaining ^@TXT_NOUN					TXTSTRUCT_A
+subsequent ^@TXT_NOUN					TXTSTRUCT_A
+following CD ^@TXT_NOUN					TXTSTRUCT_A
+remaining CD ^@TXT_NOUN					TXTSTRUCT_A
+subsequent CD ^@TXT_NOUN				TXTSTRUCT_A
+^@TXT_NOUN that follow					TXTSTRUCT_A
+rest of this ^@PRESENTATION_NOUN			TXTSTRUCT_A
+remainder of this ^@PRESENTATION_NOUN			TXTSTRUCT_A
+in ^@TXT_NOUN CREF , @SELF_NOM				TXTSTRUCT_A
+in this ^@TXT_NOUN , @SELF_NOM				TXTSTRUCT_A
+in the next ^@TXT_NOUN	, @SELF_NOM			TXTSTRUCT_A
+in @BEFORE_ADJ ^@TXT_NOUN , @SELF_NOM			TXTSTRUCT_A
+in the @BEFORE_ADJ ^@TXT_NOUN , @SELF_NOM		TXTSTRUCT_A
+in the ^@TXT_NOUN above , @SELF_NOM			TXTSTRUCT_A
+in the ^@TXT_NOUN below , @SELF_NOM			TXTSTRUCT_A
+in the following ^@TXT_NOUN , @SELF_NOM			TXTSTRUCT_A
+in the remaining ^@TXT_NOUN , @SELF_NOM			TXTSTRUCT_A
+in the subsequent ^@TXT_NOUN , @SELF_NOM		TXTSTRUCT_A
+in the ^@TXT_NOUN that follow , @SELF_NOM		TXTSTRUCT_A
+in the rest of this ^@PRESENTATION_NOUN , @SELF_NOM	TXTSTRUCT_A
+in the remainder of this ^@PRESENTATION_NOUN , @SELF_NOM TXTSTRUCT_A
+#in the ^following @SELF_NOM				TXTSTRUCT_A
+^below , @SELF_NOM					TXTSTRUCT_A
+the ^@AIM_NOUN of this @TXT_NOUN			TXTSTRUCT_A
+
+##########################    FORMULAIC CUES   ###################
+
+
+in @TRADITION_ADJ JJ ^@WORK_NOUN		GENERAL_F
+in @TRADITION_ADJ used ^@WORK_NOUN		GENERAL_F
+in @TRADITION_ADJ ^@WORK_NOUN			GENERAL_F
+in @MANY JJ ^@WORK_NOUN				GENERAL_F
+in @MANY ^@WORK_NOUN				GENERAL_F
+in @BEFORE_ADJ JJ ^@WORK_NOUN			GENERAL_F
+in @BEFORE_ADJ  ^@WORK_NOUN			GENERAL_F
+in other JJ ^@WORK_NOUN				GENERAL_F
+in other  ^@WORK_NOUN				GENERAL_F
+in such  ^@WORK_NOUN				GENERAL_F
+
+^according to CITE				THEM_F
+along the ^lines of CITE			THEM_F
+^like CITE					THEM_F
+CITE ^style					THEM_F
+a la ^CITE					THEM_F
+CITE - ^style					THEM_F
+
+#here 						DEIXIS_F
+#in @REFERENTIAL @PRESENTATION_NOUN		DEIXIS_F
+
+@SELF_NOM have ^previously			US_PREV_F
+@SELF_NOM have ^earlier 			US_PREV_F
+@SELF_NOM have ^elsewhere			US_PREV_F
+@SELF_NOM ^elsewhere	 			US_PREV_F
+@SELF_NOM ^previously				US_PREV_F
+@SELF_NOM ^earlier				US_PREV_F
+^elsewhere @SELF_NOM 				US_PREV_F
+^elswhere @SELF_NOM				US_PREV_F
+^elsewhere , @SELF_NOM 				US_PREV_F
+^elswhere , @SELF_NOM				US_PREV_F
+presented ^elswhere				US_PREV_F
+presented ^elsewhere				US_PREV_F
+@SELF_NOM have shown ^elsewhere  		US_PREV_F
+@SELF_NOM have argued ^elsewhere  		US_PREV_F
+@SELF_NOM have shown ^elswhere_NOM		US_PREV_F
+@SELF_NOM have argued ^elswhere_NOM		US_PREV_F
+@SELF_NOM will show ^elsewhere  		US_PREV_F
+@SELF_NOM will show ^elswhere			US_PREV_F
+@SELF_NOM will argue ^elsewhere  		US_PREV_F
+@SELF_NOM will argue ^elswhere			US_PREV_F
+^elsewhere SELFCITE				US_PREV_F
+^elswhere SELFCITE				US_PREV_F
+
+in a @BEFORE_ADJ ^@PRESENTATION_NOUN		US_PREV_F
+in an earlier ^@PRESENTATION_NOUN		US_PREV_F
+another ^@PRESENTATION_NOUN			US_PREV_F
+
+^then @SELF_NOM describe			TXTSTRUCT_F
+^then , @SELF_NOM describe			TXTSTRUCT_F
+^next @SELF_NOM describe			TXTSTRUCT_F
+^next , @SELF_NOM describe			TXTSTRUCT_F
+^finally @SELF_NOM describe			TXTSTRUCT_F
+^finally , @SELF_NOM describe			TXTSTRUCT_F
+^then @SELF_NOM present				TXTSTRUCT_F
+^then , @SELF_NOM present			TXTSTRUCT_F
+^next @SELF_NOM present				TXTSTRUCT_F
+^next , @SELF_NOM present			TXTSTRUCT_F
+^finally @SELF_NOM present			TXTSTRUCT_F
+^finally , @SELF_NOM present			TXTSTRUCT_F
+^briefly describe				TXTSTRUCT_F
+^briefly introduce				TXTSTRUCT_F
+^briefly present				TXTSTRUCT_F
+^briefly discuss				TXTSTRUCT_F
+#in the ^following ,				TXTSTRUCT_F
+#^below ,					TXTSTRUCT_F
+
+in this ^@PRESENTATION_NOUN			HERE_F
+the present ^@PRESENTATION_NOUN			HERE_F
+^here @SELF_NOM					HERE_F
+^here , @SELF_NOM				HERE_F
+@GIVEN ^here					HERE_F
+^now @SELF_NOM					HERE_F
+^now , @SELF_NOM				HERE_F
+@GIVEN ^now					HERE_F
+herein						HERE_F
+
+a new ^@WORK_NOUN				METHOD_F
+a novel ^@WORK_NOUN				METHOD_F
+a ^@WORK_NOUN of				METHOD_F
+an ^@WORK_NOUN of				METHOD_F
+a JJ ^@WORK_NOUN of				METHOD_F
+an JJ ^@WORK_NOUN of				METHOD_F
+a NN ^@WORK_NOUN of				METHOD_F
+an NN ^@WORK_NOUN of				METHOD_F
+a JJ NN ^@WORK_NOUN of				METHOD_F
+an JJ NN ^@WORK_NOUN of				METHOD_F
+a ^@WORK_NOUN for				METHOD_F
+an ^@WORK_NOUN for				METHOD_F
+a JJ ^@WORK_NOUN for				METHOD_F
+an JJ ^@WORK_NOUN for				METHOD_F
+a NN ^@WORK_NOUN for				METHOD_F
+an NN ^@WORK_NOUN for				METHOD_F
+a JJ NN ^@WORK_NOUN for				METHOD_F
+an JJ NN ^@WORK_NOUN for			METHOD_F
+^@WORK_NOUN designed to VV			METHOD_F
+^@WORK_NOUN intended for			METHOD_F
+^@WORK_NOUN for VV_ING				METHOD_F
+^@WORK_NOUN for the NN				METHOD_F
+^@WORK_NOUN designed to VV			METHOD_F
+^@WORK_NOUN to the NN				METHOD_F
+^@WORK_NOUN to NN				METHOD_F
+^@WORK_NOUN to VV_ING				METHOD_F
+^@WORK_NOUN for JJ VV_ING			METHOD_F
+^@WORK_NOUN for the JJ NN			METHOD_F
+^@WORK_NOUN to the JJ NN			METHOD_F
+^@WORK_NOUN to JJ VV_ING			METHOD_F
+				
+the ^problem of RB VV_ING			METHOD_F
+the ^problem of VV_ING				METHOD_F
+the ^problem of how to				METHOD_F
+
+^following CITE					CONTINUE_F
+^following the @WORK_NOUN given in CITE		CONTINUE_F
+^following the @WORK_NOUN of CITE		CONTINUE_F
+^following the @WORK_NOUN presented in CITE	CONTINUE_F
+^following the @WORK_NOUN proposed in CITE	CONTINUE_F
+^following the @WORK_NOUN discussed in CITE	CONTINUE_F
+^adopt CITE 's					CONTINUE_F
+^starting point for @REFERENTIAL @WORK_NOUN	CONTINUE_F
+^starting point for @SELF_POSS @WORK_NOUN	CONTINUE_F
+as a ^starting point				CONTINUE_F
+as ^starting point				CONTINUE_F
+^use CITE 's					CONTINUE_F
+^base @SELF_POSS				CONTINUE_F
+^supports @SELF_POSS				CONTINUE_F
+^supports @OTHERS_POSS				CONTINUE_F
+^support @OTHERS_POSS				CONTINUE_F
+^support @SELF_POSS				CONTINUE_F
+lends ^support to @SELF_POSS			CONTINUE_F
+lends ^support to @OTHERS_POSS			CONTINUE_F
+
+along the same ^lines				SIMILARITY_F
+in a ^similar vein				SIMILARITY_F
+as in ^@SELF_POSS				SIMILARITY_F
+as in ^CITE					SIMILARITY_F
+as ^did CITE					SIMILARITY_F
+like in ^CITE					SIMILARITY_F
+^like CITE 's					SIMILARITY_F
+similarity with ^CITE				SIMILARITY_F
+similarity with ^@SELF_POSS			SIMILARITY_F
+similarity with ^@OTHERS_POSS			SIMILARITY_F
+^similarity with @TRADITION_ADJ			SIMILARITY_F
+^similarity with @MANY				SIMILARITY_F
+^similarity with @BEFORE_ADJ			SIMILARITY_F
+in analogy to ^CITE				SIMILARITY_F
+in analogy to ^@SELF_POSS			SIMILARITY_F
+in analogy to ^@OTHERS_POSS			SIMILARITY_F
+in ^analogy to @TRADITION_ADJ			SIMILARITY_F
+in ^analogy to @MANY				SIMILARITY_F
+in ^analogy to @BEFORE_ADJ			SIMILARITY_F
+^similar to that of				SIMILARITY_F
+^similar to those of				SIMILARITY_F
+^similar to that described here			SIMILARITY_F
+^similar to CITE				SIMILARITY_F
+^similar to @SELF_ACC				SIMILARITY_F
+^similar to @SELF_POSS				SIMILARITY_F
+^similar to @OTHERS_ACC				SIMILARITY_F
+^similar to @TRADITION_ADJ			SIMILARITY_F
+^similar to @MANY				SIMILARITY_F
+^similar to @BEFORE_ADJ				SIMILARITY_F
+^similar to @OTHERS_POSS			SIMILARITY_F
+^similar to CITE				SIMILARITY_F
+a ^similar NN to @SELF_POSS			SIMILARITY_F
+a ^similar NN to @OTHERS_POSS			SIMILARITY_F
+a ^similar NN to CITE				SIMILARITY_F
+^analogous to that described here		SIMILARITY_F
+^analogous to CITE				SIMILARITY_F
+^analogous to @SELF_ACC				SIMILARITY_F
+^analogous to @SELF_POSS			SIMILARITY_F
+^analogous to @OTHERS_ACC			SIMILARITY_F
+^analogous to @TRADITION_ADJ			SIMILARITY_F
+^analogous to @MANY				SIMILARITY_F
+^analogous to @BEFORE_ADJ			SIMILARITY_F
+^analogous to @OTHERS_POSS			SIMILARITY_F
+^analogous to CITE				SIMILARITY_F
+the ^same NN as @SELF_POSS			SIMILARITY_F
+the ^same NN as @OTHERS_POSS			SIMILARITY_F
+the ^same NN as CITE				SIMILARITY_F
+the ^same as @SELF_POSS				SIMILARITY_F	
+the ^same as @OTHERS_POSS			SIMILARITY_F	
+the ^same as CITE				SIMILARITY_F	
+in ^common with @OTHERS_POSS			SIMILARITY_F
+in ^common with @SELF_POSS			SIMILARITY_F
+in ^common with @TRADITION_ADJ			SIMILARITY_F
+in ^common with @MANY				SIMILARITY_F
+in ^common with @BEFORE_ADJ			SIMILARITY_F
+most ^relevant to @SELF_POSS			SIMILARITY_F	
+
+however						CONTRAST_F
+nevertheless					CONTRAST_F
+nonetheless					CONTRAST_F
+unfortunately					CONTRAST_F
+yet						CONTRAST_F
+#but						CONTRAST_F
+#except						CONTRAST_F
+#although					CONTRAST_F
+#rather						CONTRAST_F
+#instead					CONTRAST_F
+
+#conflict					CONTRAST_F
+#conflicts					CONTRAST_F
+#clash						CONTRAST_F
+#clashes					CONTRAST_F
+
+^whereas @SELF_ACC      			COMPARISON_F
+^whereas @SELF_POSS     			COMPARISON_F
+^while @SELF_NOM      				COMPARISON_F
+^while @SELF_POSS     				COMPARISON_F
+
+^against CITE	 				COMPARISON_F
+^against @SELF_ACC				COMPARISON_F
+^against @SELF_POSS				COMPARISON_F
+^against @OTHERS_ACC				COMPARISON_F
+^against @OTHERS_POSS				COMPARISON_F
+^against @BEFORE_ADJ @WORK_NOUN			COMPARISON_F
+^against @MANY @WORK_NOUN			COMPARISON_F
+^against @TRADITION_ADJ @WORK_NOUN		COMPARISON_F
+^than CITE					COMPARISON_F
+^than @SELF_ACC					COMPARISON_F
+^than @SELF_POSS				COMPARISON_F
+^than @OTHERS_ACC				COMPARISON_F
+^than @OTHERS_POSS	 			COMPARISON_F
+^than @TRADITION_ADJ @WORK_NOUN			COMPARISON_F
+^than @BEFORE_ADJ @WORK_NOUN			COMPARISON_F
+^than @MANY @WORK_NOUN				COMPARISON_F
+
+point of ^departure from @SELF_POSS		COMPARISON_F
+points of ^departure from @OTHERS_POSS		COMPARISON_F
+
+^advantage over @OTHERS_ACC			COMPARISON_F
+^advantage over @TRADITION_ADJ			COMPARISON_F
+^advantage over @MANY @WORK_NOUN		COMPARISON_F
+^advantage over @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^advantage over @OTHERS_POSS			COMPARISON_F
+^advantage over CITE				COMPARISON_F
+^advantage to @OTHERS_ACC			COMPARISON_F
+^advantage to @OTHERS_POSS			COMPARISON_F
+^advantage to CITE				COMPARISON_F
+^advantage to @TRADITION_ADJ			COMPARISON_F
+^advantage to @MANY @WORK_NOUN			COMPARISON_F
+^advantage to @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^advantages over @OTHERS_ACC			COMPARISON_F
+^advantages over @TRADITION_ADJ			COMPARISON_F
+^advantages over @MANY @WORK_NOUN		COMPARISON_F
+^advantages over @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^advantages over @OTHERS_POSS			COMPARISON_F
+^advantages over CITE				COMPARISON_F
+^advantages to @OTHERS_ACC			COMPARISON_F
+^advantages to @OTHERS_POSS			COMPARISON_F
+^advantages to CITE				COMPARISON_F
+^advantages to @TRADITION_ADJ			COMPARISON_F
+^advantages to @MANY @WORK_NOUN			COMPARISON_F
+^advantages to @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^benefit over @OTHERS_ACC			COMPARISON_F
+^benefit over @OTHERS_POSS			COMPARISON_F
+^benefit over CITE				COMPARISON_F
+^benefit over @TRADITION_ADJ			COMPARISON_F
+^benefit over @MANY	 @WORK_NOUN		COMPARISON_F
+^benefit over @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^difference to CITE				COMPARISON_F
+^difference to @TRADITION_ADJ			COMPARISON_F
+^difference to @MANY @WORK_NOUN			COMPARISON_F
+^difference to @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^difference to @OTHERS_ACC			COMPARISON_F
+^difference to @OTHERS_POSS			COMPARISON_F
+^difference to @SELF_ACC			COMPARISON_F
+^difference to @SELF_POSS			COMPARISON_F
+^differences to CITE				COMPARISON_F
+^differences to @TRADITION_ADJ			COMPARISON_F
+^differences to @MANY @WORK_NOUN		COMPARISON_F
+^differences to @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^differences to @OTHERS_ACC			COMPARISON_F
+^differences to @OTHERS_POSS			COMPARISON_F
+^differences to @SELF_ACC			COMPARISON_F
+^differences to @SELF_POSS			COMPARISON_F
+^difference between CITE			COMPARISON_F
+^difference between @TRADITION_ADJ		COMPARISON_F
+^difference between @MANY @WORK_NOUN		COMPARISON_F
+^difference between @BEFORE_ADJ @WORK_NOUN	COMPARISON_F
+^difference between @OTHERS_ACC			COMPARISON_F
+^difference between @OTHERS_POSS		COMPARISON_F
+^difference between @SELF_ACC			COMPARISON_F
+^difference between @SELF_POSS			COMPARISON_F
+^differences between CITE			COMPARISON_F
+^differences between @TRADITION_ADJ		COMPARISON_F
+^differences between @MANY @WORK_NOUN		COMPARISON_F
+^differences between @BEFORE_ADJ @WORK_NOUN	COMPARISON_F
+^differences between @OTHERS_ACC		COMPARISON_F
+^differences between @OTHERS_POSS		COMPARISON_F
+^differences between @SELF_ACC			COMPARISON_F
+^differences between @SELF_POSS			COMPARISON_F
+^contrast with CITE				COMPARISON_F
+^contrast with @TRADITION_ADJ			COMPARISON_F
+^contrast with @MANY @WORK_NOUN			COMPARISON_F
+^contrast with @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^contrast with @OTHERS_ACC			COMPARISON_F
+^contrast with @OTHERS_POSS			COMPARISON_F
+^contrast with @SELF_ACC			COMPARISON_F
+^contrast with @SELF_POSS			COMPARISON_F
+^unlike @SELF_ACC				COMPARISON_F
+^unlike @SELF_POSS				COMPARISON_F
+^unlike CITE					COMPARISON_F
+^unlike @TRADITION_ADJ				COMPARISON_F
+^unlike @BEFORE_ADJ @WORK_NOUN			COMPARISON_F
+^unlike @MANY @WORK_NOUN			COMPARISON_F
+^unlike @OTHERS_ACC				COMPARISON_F
+^unlike @OTHERS_POSS				COMPARISON_F
+in ^contrast to @SELF_ACC			COMPARISON_F
+in ^contrast to @SELF_POSS			COMPARISON_F
+in ^contrast to CITE            		COMPARISON_F
+in ^contrast to @TRADITION_ADJ   		COMPARISON_F
+in ^contrast to @MANY @WORK_NOUN   		COMPARISON_F
+in ^contrast to @BEFORE_ADJ @WORK_NOUN 		COMPARISON_F
+in ^contrast to @OTHERS_ACC      		COMPARISON_F
+in ^contrast to @OTHERS_POSS        		COMPARISON_F
+as ^opposed to @SELF_ACC          	        COMPARISON_F
+as ^opposed to @SELF_POSS              	 	COMPARISON_F
+as ^opposed to CITE          			COMPARISON_F
+as ^opposed to @TRADITION_ADJ 			COMPARISON_F
+as ^opposed to @MANY @WORK_NOUN			COMPARISON_F
+as ^opposed to @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+as ^opposed to @OTHERS_ACC    			COMPARISON_F
+as ^opposed to @OTHERS_POSS   			COMPARISON_F
+^contrary to @SELF_ACC      			COMPARISON_F
+^contrary to @SELF_POSS     			COMPARISON_F
+^contrary to CITE          			COMPARISON_F
+^contrary to @TRADITION_ADJ             	COMPARISON_F
+^contrary to @MANY @WORK_NOUN            	COMPARISON_F
+^contrary to @BEFORE_ADJ @WORK_NOUN            	COMPARISON_F
+^contrary to @OTHERS_ACC    			COMPARISON_F
+^contrary to @OTHERS_POSS   			COMPARISON_F
+^whereas CITE           			COMPARISON_F
+^whereas @TRADITION_ADJ 			COMPARISON_F
+^whereas @BEFORE_ADJ @WORK_NOUN			COMPARISON_F
+^whereas @MANY @WORK_NOUN			COMPARISON_F
+^whereas @OTHERS_ACC    			COMPARISON_F
+^whereas @OTHERS_POSS				COMPARISON_F
+^compared to @SELF_ACC      			COMPARISON_F
+^compared to @SELF_POSS     			COMPARISON_F
+^compared to CITE          			COMPARISON_F
+^compared to @TRADITION_ADJ 			COMPARISON_F
+^compared to @BEFORE_ADJ @WORK_NOUN		COMPARISON_F
+^compared to @MANY @WORK_NOUN			COMPARISON_F
+^compared to @OTHERS_ACC    			COMPARISON_F
+^compared to @OTHERS_POSS   			COMPARISON_F
+in ^comparison to @SELF_ACC      		COMPARISON_F
+in ^comparison to @SELF_POSS			COMPARISON_F
+in ^comparison to CITE          		COMPARISON_F
+in ^comparison to @TRADITION_ADJ 		COMPARISON_F
+in ^comparison to @MANY @WORK_NOUN 		COMPARISON_F
+in ^comparison to @BEFORE_ADJ @WORK_NOUN	COMPARISON_F
+in ^comparison to @OTHERS_ACC    		COMPARISON_F
+in ^comparison to @OTHERS_POSS   		COMPARISON_F
+^while CITE          				COMPARISON_F
+^while @TRADITION_ADJ				COMPARISON_F
+^while @BEFORE_ADJ @WORK_NOUN			COMPARISON_F
+^while @MANY @WORK_NOUN				COMPARISON_F
+^while @OTHERS_NOM				COMPARISON_F
+^while @OTHERS_POSS				COMPARISON_F
+
+as far as @SELF_NOM ^know			GAP_F
+to @SELF_POSS ^knowledge			GAP_F
+to the best of @SELF_POSS ^knowledge		GAP_F
+
+in the ^future					FUTURE_F
+in the near ^future				FUTURE_F
+^@FUTURE_ADJ @WORK_NOUN				FUTURE_F
+^@FUTURE_ADJ @AIM_NOUN				FUTURE_F
+^@FUTURE_ADJ development			FUTURE_F
+needs ^further					FUTURE_F
+requires ^further				FUTURE_F
+beyond the ^scope				FUTURE_F
+^avenue for improvement				FUTURE_F
+^avenues for improvement			FUTURE_F
+^avenues for @FUTURE_ADJ improvement		FUTURE_F
+^areas for @FUTURE_ADJ improvement		FUTURE_F
+^areas for improvement				FUTURE_F
+^avenues of @FUTURE_ADJ research		FUTURE_F
+promising ^avenue				FUTURE_F
+promising ^avenues				FUTURE_F
+
+hopefully					AFFECT_F
+thankfully					AFFECT_F
+fortunately					AFFECT_F
+unfortunately					AFFECT_F
+
+@POS_ADJ					GOOD_F
+@NEG_ADJ					BAD_F 
+@TRADITIONAL_ADJ				TRADITION_F
+
+in ^order to					IN_ORDER_TO_F
+
+@SELF_NOM have ^also				DETAIL_F
+this @PRESENTATION_NOUN has ^also		DETAIL_F
+
+( ^TXT_NOUN CREF )				NO_TXTSTRUCT_F
+#of ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+#of the @BEFORE_ADJ ^@TXT_NOUN			NO_TXTSTRUCT_F
+#of the next ^@TXT_NOUN				NO_TXTSTRUCT_F
+#of ^@TXT_NOUN CREF and CREF			NO_TXTSTRUCT_F
+#of this ^@TXT_NOUN				NO_TXTSTRUCT_F
+#of the ^@TXT_NOUN above			NO_TXTSTRUCT_F
+#of the ^@TXT_NOUN below			NO_TXTSTRUCT_F
+#of the following ^@TXT_NOUN			NO_TXTSTRUCT_F
+#of the remaining ^@TXT_NOUN			NO_TXTSTRUCT_F
+#of the subsequent ^@TXT_NOUN			NO_TXTSTRUCT_F
+#of subsequent ^@TXT_NOUN			NO_TXTSTRUCT_F
+#of the ^@TXT_NOUN that follow			NO_TXTSTRUCT_F
+#of the rest of this ^@PRESENTATION_NOUN	NO_TXTSTRUCT_F
+#of the remainder of this ^@PRESENTATION_NOUN	NO_TXTSTRUCT_F
+as explained in ^@TXT_NOUN CREF			NO_TXTSTRUCT_F
+as explained in the @BEFORE_ADJ ^@TXT_NOUN	NO_TXTSTRUCT_F
+as ^@GIVEN earlier in this @TXT_NOUN		NO_TXTSTRUCT_F
+as ^@GIVEN below				NO_TXTSTRUCT_F
+as @GIVEN in ^@TXT_NOUN CREF			NO_TXTSTRUCT_F
+as @GIVEN in the @BEFORE_ADJ ^@TXT_NOUN 	NO_TXTSTRUCT_F
+as @GIVEN in the next ^@TXT_NOUN		NO_TXTSTRUCT_F
+NN @GIVEN in ^@TXT_NOUN CREF			NO_TXTSTRUCT_F
+NN @GIVEN in the @BEFORE_ADJ ^@TXT_NOUN		NO_TXTSTRUCT_F
+NN @GIVEN in the next ^@TXT_NOUN		NO_TXTSTRUCT_F
+NN @GIVEN ^below				NO_TXTSTRUCT_F
+cf. ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+cf. ^@TXT_NOUN below				NO_TXTSTRUCT_F
+cf. the ^@TXT_NOUN below			NO_TXTSTRUCT_F
+cf. the @BEFORE_ADJ ^@TXT_NOUN			NO_TXTSTRUCT_F
+cf. ^@TXT_NOUN above				NO_TXTSTRUCT_F
+cf. the ^@TXT_NOUN above			NO_TXTSTRUCT_F
+e. g. , ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+e. g , ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+e. g.  ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+e. g  ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+compare ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+compare ^@TXT_NOUN below			NO_TXTSTRUCT_F
+compare the ^@TXT_NOUN below			NO_TXTSTRUCT_F
+compare the @BEFORE_ADJ ^@TXT_NOUN		NO_TXTSTRUCT_F
+compare ^@TXT_NOUN above			NO_TXTSTRUCT_F
+compare the ^@TXT_NOUN above			NO_TXTSTRUCT_F
+see ^@TXT_NOUN CREF				NO_TXTSTRUCT_F
+see the @BEFORE_ADJ ^@TXT_NOUN			NO_TXTSTRUCT_F
+recall from the @BEFORE_ADJ ^@TXT_NOUN		NO_TXTSTRUCT_F
+recall from the ^@TXT_NOUN above		NO_TXTSTRUCT_F
+recall from ^@TXT_NOUN CREF			NO_TXTSTRUCT_F
+@SELF_NOM shall see ^below			NO_TXTSTRUCT_F
+@SELF_NOM will see ^below			NO_TXTSTRUCT_F
+@SELF_NOM shall see in the ^next @TXT_NOUN	NO_TXTSTRUCT_F
+@SELF_NOM will see in the ^next @TXT_NOUN	NO_TXTSTRUCT_F
+@SELF_NOM shall see in ^@TXT_NOUN CREF		NO_TXTSTRUCT_F
+@SELF_NOM will see in  ^@TXT_NOUN CREF		NO_TXTSTRUCT_F
+example in ^@TXT_NOUN CREF			NO_TXTSTRUCT_F
+example CREF in ^@TXT_NOUN CREF			NO_TXTSTRUCT_F
+examples CREF and CREF in ^@TXT_NOUN CREF	NO_TXTSTRUCT_F
+examples in ^@TXT_NOUN CREF			NO_TXTSTRUCT_F      
+

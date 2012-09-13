@@ -1,0 +1,19 @@
+# CVS: $Id$
+#
+# CVS: $Log$
+== done:
+ported into new wss and now under urn:WING.NUS and owned by wing.nus, Tue Dec 28 22:34:16 SGT 2010
+
+show confidence values
+context tagging - done, Thu Dec 27 22:36:19 SGT 2007
+do mw cue phrases - done, hacked, Thu Dec 27 22:36:19 SGT 2007
+mapping copy files - done
+refactor to directories - done, Tue Jan  1 12:43:20 SGT 2008
+redo cue phrases to perl db hashes - done, Tue Jan  1 12:43:42 SGT 2008
+
+== todo:
+context tagging iterative
+tfidf
+strip headers (references)
+preprocessing specific to (scientific, chemistry?) raw text
+
