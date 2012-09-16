@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+require 'soap/rpc/driver'
+require 'optparse'
+require 'ostruct'
+
+# set up options / defaults / user customization
+@@VERSION = [1,0]
+options = OpenStruct.new()
+#options.hostname = Default_Hostname = "wing.comp.nus.edu.sg"
+options.hostname = Default_Hostname = "aye"
+options.port = Default_Port = "4000" # changed by min "10570"
+options.service_id = Default_Service_ID = "urn:WING.NUS"
+options.action = Default_Action = "arg_zone_postagged_file"
+
+opts = OptionParser.new do |opts|
+  opts.banner = "usage: #{$0} [options] text_file_or_uri"
+
+  opts.separator ""
+  opts.on_tail("-h", "--help", "Show this message") do puts opts; exit end
+  opts.on("-H", "--hostname [HOSTNAME]", "e.g., #{Default_Hostname}") do |o| options.hostname = o end
+  opts.on("-p", "--port [PORT]", "e.g., #{Default_Port}") do |o| options.port = o end
+  opts.on("-s", "--service_id [SERVICE_ID]", "default #{Default_Service_ID}") do |o| options.service_id = o end
+  opts.on("-a", "--action [ACTION]", "default #{Default_Action}") do |o| options.action = o end
+  opts.on("-v", "--version", "Show version") do puts "#{$0} " + @@VERSION.join('.'); exit end
+end
+opts.parse!(ARGV)
+
+# puts "#{options.hostname} #{options.port} #{options.action} #{options.service_id}"
+
+s = SOAP::RPC::Driver.new("http://#{options.hostname}:#{options.port}/", options.service_id)
+case options.action 
+when "arg_zone_postagged_file"
+  s.add_method(options.action, "file")
+  puts s.arg_zone_postagged_file(ARGV[0])
+when "ping"
+  s.add_method(options.action)
+  puts s.ping()
+when "status"
+  s.add_method(options.action)
+  puts s.status()
+when "register"
+  s.add_method(options.action, "service", "machine")
+  puts s.register(ARGV[0],ARGV[1])
+when "deregister"
+  s.add_method(options.action, "service", "machine")
+  puts s.deregister(ARGV[0],ARGV[1])
+default
+end
