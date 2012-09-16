@@ -251,7 +251,7 @@ sub printOutput {
   if ($inputMode eq "rawText") {
     print "<P>N.B. - Since you are using raw text as input we cannot show you what is wrong with the text, just the predicted markup.</P>\n";
   } else { # input style = annot
-    print "<P>Hover any span to see the top 2 predicted classes.  Red text indicates that the system got the wrong answer, as compared to the correcte answers in the uploaded .annot file.</P>";
+    print "<P>Hover any span to see the top 2 predicted classes.  Red text indicates that the system got the wrong answer, as compared to the correct answers in the uploaded .annot file.</P>";
   }
 
   open (IF, $filename) || die;
