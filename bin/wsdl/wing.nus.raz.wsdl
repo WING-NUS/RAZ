@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Added by Min Sat Jul 18 15:19:58 SGT 2009 -->
+  <wsdl:definitions name="WING.NUS" 
+    xmlns:tns="urn:WING.NUS"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    targetNamespace="urn:WING.NUS">
+
+  <!-- MESSAGES : The messages used by the web service -->
+  <wsdl:message name="arg_zone_postagged_file_request">
+    <wsdl:part name="uri_or_path" type="xsd:string"/>
+  </wsdl:message>
+  <wsdl:message name="arg_zone_postagged_file_response">
+    <wsdl:part name="sentences_xml" type="xsd:string"/>
+  </wsdl:message>
+
+  <!-- PORTTYPES : The operations performed by the web service -->
+  <wsdl:portType name="WING.NUSPortType">
+    <!-- 10556 -->
+    <wsdl:operation name="arg_zone_postagged_file">
+      <wsdl:documentation>
+        Argumentative Zones a Part-Of-Speech Tagged file 
+      </wsdl:documentation>
+      <wsdl:input message="tns:arg_zone_postagged_file_request"/>
+      <wsdl:output message="tns:arg_zone_postagged_file_response"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  
+  <!-- BINDINGS : The communication protocols used by the web service -->
+    <wsdl:operation name="arg_zone_postagged_file">
+      <soap:operation style="rpc" soapAction="arg_zone_postagged_file"/>
+      <wsdl:input> <soap:body use="literal" namespace="urn:WING.NUS"
+                              encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output> <soap:body use="literal" namespace="urn:WING.NUS"
+                               encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+
+  <!-- SERVICE : The service name -->
+  <wsdl:service name="WING.NUS">
+    <wsdl:documentation>
+      Web Services provided by the Web IR / NLP Group (WING) of the School of Computing, NUS.
+    </wsdl:documentation>
+    <wsdl:port name="WING.NUSPort" binding="tns:WING.NUSBinding">
+      <soap:address location="http://wing.comp.nus.edu.sg:4000/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

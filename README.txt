@@ -5,6 +5,7 @@ archives/	- archive of old scripts (for source control look to sg/edu/nus/comp/k
 doc/		- cgi files and documentation
 lib/		- simone's lexicon and files and full models trained over all annot data
 bin/		- all scripts
+   /wsdl        - scripts for web services
 tmp/		- temporary holding space for redo.pl output
 
 == META TEXT FILES
