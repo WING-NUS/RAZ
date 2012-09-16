@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/local/bin/perl -w
 # -*- cperl -*-
 =head1 NAME
 
