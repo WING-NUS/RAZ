@@ -1,144 +1,199 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WING &#187; Robust Argumentative Zoning (RAZ)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Robust Argumentative Zoning (RAZ) Home Page">
+    <meta name="author" content="Min-Yen KAN">
 
-<HTML><HEAD>
-<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="citraz, simone teufel, min-yen kan, argumentative zoning, citations, citation function classification, zoning">
-<LINK REL="stylesheet" HREF="zoning.css"><TITLE>Robust Argumentative Zoning</TITLE>
-</HEAD><BODY BGCOLOR="#FFFFFF">
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
-<DIV ID="leftcontent">
-[&nbsp;<A href="http://wing.comp.nus.edu.sg/">WING homepage</A>&nbsp;]<br/>
-[&nbsp;<A href="http://wing.comp.nus.edu.sg/portal/web-services.html">WING web services</A>&nbsp;]<br/> 
-<BR/>
-<!-- [&nbsp;<A href="#d">Download</a>&nbsp;]<br/> -->
-[&nbsp;<A href="#wd">Web Demo</a>&nbsp;]<br/>
-[&nbsp;<A href="#p">Publications</a>&nbsp;]<br/>
-<!-- [&nbsp;<A href="#gsiso">Input and Output</a>&nbsp;]<br/> -->
-[&nbsp;<A href="#gm">Group Members</a>&nbsp;]<br/>
-<!-- [&nbsp;<A href="#faq">FAQ</a>&nbsp;]<br/> -->
-<!-- [&nbsp;<A href="#t">Troubleshooting</a>&nbsp;]<br/>  -->
-<br/>
-<script type="text/javascript"
-src="http://feedjit.com/serve/?vv=932&tft=3&dd=0&wid=0804fba767d140cd&pid=0&proid=0&bc=FFFFFF&tc=000000&brd1=012B6B&lnk=135D9E&hc=FFFFFF&hfc=2853A8&btn=C99700&ww=200&wne=10&wh=WING+Live+Traffic+Feed&hl=0&hlnks=0&hfce=0&srefs=1&hbars=0"></script><noscript><a
-href="http://feedjit.com/">Feedjit Live Blog Stats</a></noscript>
-</DIV>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
 
-<DIV ID="centercontent">
-<IMG ALIGN="LEFT" SRC="raz.png" WIDTH="200px" ALT="Picture of Raz">
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
 
-<CENTER><H1>Robust Argumentative Zoning</H1></CENTER>
+<!-- Navbar ================================================== -->
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </a>
+      <a class="brand active" href="index.html">RAZ</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a target="_blank" href="http://wing.comp.nus.edu.sg"><i class="icon-share-alt icon-white"></i> WING Home Page</a></li>
+            <li><a target="_blank" href="http://wing.comp.nus.edu.sg/portal/web-services.html"><i class="icon-share-alt icon-white"></i> WING Web Services</a></li>
+	  </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
 
-<P>This is the home page for the argumentative zoning for raw text
-project, a collaboration between NUS and the University of Cambridge.
-This work follows Teufel's thesis to zone (label) sentences with six
-different rhetorical functions for scholarly discoure.</P>
+    <div class="container-fluid">
+      <div class="row-fluid">
 
-<P>The download comes with Teufel's original analysis and markup of 80
-cmp-lg articles.</P>
+        <div class="span3 bs-docs-sidebar">
+	  <ul class="nav nav-list bs-docs-sidenav well" data-spy="affix">
+            <li><a href="#dl"><i class="icon-chevron-right"></i>Download</a></li>
+            <li><a href="#d"><i class="icon-chevron-right"></i>Web Demo</a></li>
+            <li><a href="#p"><i class="icon-chevron-right"></i>Publications</a></li>
+            <li><a href="#gm"><i class="icon-chevron-right"></i>Group Members</a></li>
+            <li><a href="#t"><i class="icon-chevron-right"></i>Troubleshooting</a></li>
+	    <li>
+	    <script type="text/javascript"
+	    src="http://feedjit.com/serve/?vv=932&tft=3&dd=0&wid=0804fba767d140cd&pid=0&proid=0&bc=FFFFFF&tc=000000&brd1=012B6B&lnk=135D9E&hc=FFFFFF&hfc=2853A8&btn=C99700&ww=200&wne=10&wh=WING+Live+Traffic+Feed&hl=0&hlnks=0&hfce=0&srefs=1&hbars=0"></script><noscript><a
+	    href="http://feedjit.com/">Feedjit Live Blog Stats</a></noscript>
+	    </li>
+          </ul>
+        </div><!-- /span -->
 
-<P>This work is licensed under <A
-HREF="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative
-Commons Attribution-ShareAlike 3.0 Unported License</A>.  See
-LICENSE.txt in the distribution for details. For alternative licenses,
-please contact the authors.</P>
+        <div class="span9">
+          <div class="hero-unit">
+	    <img src="http://aye.comp.nus.edu.sg/raz/raz.png"/ width="200px" alt="Picture of Raz"/ style="float:left; padding:15px;">
+            <h1>Robust Argumentative Zoning</h1>
+	    <small>This is the home page for the argumentative zoning for
+            raw text project, a collaboration between NUS and the
+            University of Cambridge. This work follows Teufel's thesis
+            to zone (label) sentences with six different rhetorical
+            functions for scholarly discoure.</small>
 
-<BR CLEAR="ALL"/>
+          </div><!--/head-unit-->
 
-<!-- Download ---------------------------------------------------------------------- -->
+          <div class="row">
 
-<H2>Download</H2>
+	    <P>This work is licensed under <A
+	    HREF="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative
+	    Commons Attribution-ShareAlike 3.0 Unported
+	    License</A>. See LICENSE.txt in the distribution for
+	    details. For alternative licenses, please contact the
+	    authors.</p>
 
-<P>[New as of 2012-Sep-13: You can download the entire distribution on
-<A HREF="http://www.github.com/WING-NUS/RAZ">GitHub</A> (flaws and
-all)!  The distribution contains Simone's original AZ corpus from
-Cmp-Lg as described in her thesis.</P>
+            <section id="d">
+	    <h2>Download</h2>
 
-<!-- Content ---------------------------------------------------------------------- -->
+	    <p>This download comes with Teufel's original analysis and
+	    markup of 80 cmp-lg articles.</p>
 
-<A NAME="wd"></A><H2>Web Demonstration</H2>
+	    <P>[New as of 2012-Sep-13: You can download the entire distribution on
+	    <A HREF="http://www.github.com/WING-NUS/RAZ">GitHub</A> (flaws and
+	    all)!  The distribution contains Simone's original AZ corpus from
+	    Cmp-Lg as described in her thesis.</P>
+	    </section>
 
-<FORM ENCTYPE="multipart/form-data" METHOD="post" ACTION="raz.cgi">
-<TABLE WIDTH="100%" BORDER="3">
-<TR><TD WIDTH="80%">
-<P style="font-size:small;"><I>Internal key (if applicable):</I> <INPUT TYPE="password" SIZE="4" NAME="key"></P> 
+	    <section id="d">	    
+            <h2>Web Demonstration</h2>
 
-Cut and paste a plain text or .annot file to be zoned.
-<TEXTAREA ROWS="4" COLS="65" NAME="text">
-</TEXTAREA>
+	    <FORM ENCTYPE="multipart/form-data" METHOD="post" ACTION="raz.cgi">
+	    <table width="100%" border>
+	    <tr><td width="80%">
+	    <INPUT TYPE="password" SIZE="4" NAME="key" placeholder="Internal key (if applicable)"/>
 
-<P>Or upload a .txt or .annot file to have it zoned.  Such as <A
-HREF="http://wing.comp.nus.edu.sg/~forecite/samples/9405001.annot">9405001.annot</A>
-(right click on the link to save it locally) or <A
-HREF="http://wing.comp.nus.edu.sg/~forecite/samples/9405001.txt">9405001.txt</A>.
+	    <P><BR/> <textarea rows="4" cols="65" name="text"
+	    placeholder="Cut and paste a plain text or .annot file to be zoned"></textarea>
 
-<INPUT TYPE="FILE" NAME="datafile">
-</TD>
-<TD>
-Input Mode:<BR>
-<INPUT TYPE="radio" NAME="inputMode" CHECKED VALUE="rawText"> rawText
-<BR>
-<INPUT TYPE="radio" NAME="inputMode" VALUE="annot"> annot (training files)
-<HR>
-Iterative?:<BR>
-<INPUT TYPE="radio" NAME="stages" CHECKED VALUE="1"> no, one round only
-<BR>
-<INPUT TYPE="radio" NAME="stages" VALUE="2"> yes, two rounds (only applicable to rawText mode)
-</TD>
-</TR>
-<TR>
-<TD COLSPAN="2">
-<CENTER>
-<INPUT TYPE="SUBMIT" VALUE="Parse!">
-</CENTER>
-</TD>
-</TABLE>
-</FORM>
+	    <P>Or upload a .txt or .annot file to have it zoned.  Such as <A
+	    HREF="http://wing.comp.nus.edu.sg/~forecite/samples/9405001.annot">9405001.annot</A>
+	    (right click on the link to save it locally) or <A
+	    HREF="http://wing.comp.nus.edu.sg/~forecite/samples/9405001.txt">9405001.txt</A>.
 
-<!-- Publications  ---------------------------------------------------------------------- -->
+	    <INPUT TYPE="FILE" NAME="datafile">
+	    </TD>
+	    <TD>
+	    Input Mode:<BR>
+	    <INPUT TYPE="radio" NAME="inputMode" CHECKED VALUE="rawText"> rawText
+	    <BR>
+	    <INPUT TYPE="radio" NAME="inputMode" VALUE="annot"> annot (training files)
+	    <HR>
+	    Iterative?:<BR>
+	    <INPUT TYPE="radio" NAME="stages" CHECKED VALUE="1"> no, one round only
+	    <BR>
+	    <INPUT TYPE="radio" NAME="stages" VALUE="2"> yes, two rounds (only applicable to rawText mode)
+	    </TD>
+	    </TR>
+	    <TR>
+	    <TD COLSPAN="2">
+	    <CENTER>
+	    <INPUT TYPE="SUBMIT" VALUE="Parse!">
+	    </CENTER>
+	    </TD>
+	    </TABLE>
+	    </FORM>
+	    </section>
 
-<A NAME="p"></A><H2>Publications</H2>
+	    <section id="p">
+            <h2>Publications</h2>
 
-<P>If you'd like to cite the use of this tool or its scientific contribution, please cite:</P>
-<OL>
-<LI>Simone Teufel and Min-Yen Kan (2011). <U>Robust Argumentative Zoning for Sensemaking in Scholarly Documents</U>. In Raffaella Bernardi, Sally Chambers, Bj&ouml;rn Gottfried, Fr&eacute;d&eacute;rique Segond and Ilya Zaihrayeu (editors) Advanced Language Technologies for Digital Libraries (ALT4DL). Springer.<BR/>
-[ <A HREF="http://wing.comp.nus.edu.sg/portal/publications.html?view=publication&task=show&id=149">More</A> ]
-[ <A HREF="http://wing.comp.nus.edu.sg/publications/2011/alt4dl11.pdf">Digital Version (.pdf)</A> ]
-</LI>
-</Ol>
-<P>If you only made use of the cmp-lg annotated corpus, please instead cite Simone's original thesis:</P>
-<OL>
-<LI>Simone Teufel (1999) <U>Argumentative zoning: Information extraction from scientific text</U>.
-Ph.D. Thesis, University of Edinburgh.<BR/>
-[ <A HREF="http://www.cl.cam.ac.uk/~sht25/thesis/t.pdf">.pdf</A> (from <A HREF="http://www.cl.cam.ac.uk/~sht25/">Simone's Cambridge home page</A>) ]
-</LI>
-</Ol>
+	    <P>If you'd like to cite the use of this tool or its scientific contribution, please cite:</P>
+	    <OL>
+	    <LI>Simone Teufel and Min-Yen Kan (2011). <U>Robust Argumentative Zoning for Sensemaking in Scholarly Documents</U>. In Raffaella Bernardi, Sally Chambers, Bj&ouml;rn Gottfried, Fr&eacute;d&eacute;rique Segond and Ilya Zaihrayeu (editors) Advanced Language Technologies for Digital Libraries (ALT4DL). Springer.<BR/>
+	    [ <A HREF="http://wing.comp.nus.edu.sg/portal/publications.html?view=publication&task=show&id=149">More</A> ]
+	    [ <A HREF="http://wing.comp.nus.edu.sg/publications/2011/alt4dl11.pdf">Digital Version (.pdf)</A> ]
+	    </LI>
+	    </Ol>
+	    <P>If you only made use of the cmp-lg annotated corpus, please instead cite Simone's original thesis:</P>
+	    <OL>
+	    <LI>Simone Teufel (1999) <U>Argumentative zoning: Information extraction from scientific text</U>.
+	    Ph.D. Thesis, University of Edinburgh.<BR/>
+	    [ <A HREF="http://www.cl.cam.ac.uk/~sht25/thesis/t.pdf">.pdf</A> (from <A HREF="http://www.cl.cam.ac.uk/~sht25/">Simone's Cambridge home page</A>) ]
+	    </LI>
+	    </Ol>
+	    </section>
 
-<!-- Members ---------------------------------------------------------------------- -->
+	    <section id="gm">
+            <h2>Group Members</h2>
 
-<H2>Group Members</H2>
+	      <UL>
+	        <LI> <A HREF="http://www.cl.cam.ac.uk/~sht25/">Simone Teufel</A> - Co-PI</LI>
+	        <LI> <A HREF="http://www.comp.nus.edu.sg/~kanmy">Min-Yen Kan</A> - Co-PI</LI>
+	      </UL>
 
-<UL>
-  <LI> <A HREF="http://www.cl.cam.ac.uk/~sht25/">Simone Teufel</A> - Co-PI
-  <LI> <A HREF="http://www.comp.nus.edu.sg/~kanmy">Min-Yen Kan</A> - Co-PI
-</UL>
+	    </section>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">RAZ</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://wing.comp.nus.edu.sg/raz/" property="cc:attributionName" rel="cc:attributionURL">Simone Teufel and Min-Yen Kan</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+	    <section id="t">
+            <h2>Troubleshooting</h2>
 
+	    <p>Please refer to the <A
+	    HREF="http://aye.comp.nus.edu.sg/raz/www.github.com/WING-NUS/RAZ/issues">Issues
+	    @ GitHub for RAZ</A>, to search for problems and also
+	    raise support tickets.</p>
+	    </section>
 
-<!-- Members ---------------------------------------------------------------------- -->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
 
-<H2>Troubleshooting</H2>
+      <hr>
 
-<p>Please refer to the <A HREF="www.github.com/WING-NUS/RAZ/issues">Issues @ GitHub for RAZ</A>, to search for problems and also raise support tickets.</A>
+      <footer>
+        <p>Built with Twitter Bootstrap.  Web Information Retrieval / Natural Language Processing Group at the National University of Singapore.</p>
+      </footer>
 
-<HR>
-<H5><ADDRESS><A HREF="http://www.comp.nus.edu.sg/~kanmy">Min-Yen Kan</A> &lt;<A HREF="mailto:kanmy@comp.nus.edu.sg">kanmy@comp.nus.edu.sg</A>&gt;</ADDRESS>
-Created on: Wed Dec 19 13:20:43 2007
-<!-- hhmts start -->
-| Version: 1.0
+    </div><!--/.fluid-container-->
 
-| Last modified: 
-Mon Aug 17 00:43:24 2009
-<!-- hhmts end -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-</H5></DIV>
-</BODY> </HTML>
+  </body>
+</html>
